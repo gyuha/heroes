@@ -1,0 +1,30 @@
+{
+  "name": "heroes",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "pnpm typecheck && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit && tsc --noEmit -p tsconfig.sim.json",
+    "format": "prettier --write src vite.config.ts tsconfig.json tsconfig.sim.json index.html package.json",
+    "format:check": "prettier --check src vite.config.ts tsconfig.json tsconfig.sim.json index.html package.json"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 100
+  },
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}

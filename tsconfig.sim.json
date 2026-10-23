@@ -1,0 +1,18 @@
+{
+  // 시뮬레이션 계층 경계 검사 (docs/ARCHITECTURE.md 2절).
+  // src/sim 은 three.js·DOM·render·app 에 의존하지 않아야 한다.
+  // - lib 에 DOM 이 없으므로 window, document 등을 쓰면 오류
+  // - three 를 import 하면 아래 paths 가 빈 선언 파일로 돌려 "has no exported member" 오류
+  // - render/app 파일을 import 하면 그 파일의 three·DOM 사용이 오류로 드러난다
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "types": [],
+    "paths": {
+      "three": ["./src/types/simForbiddenThree.d.ts"],
+      "three/*": ["./src/types/simForbiddenThree.d.ts"]
+    }
+  },
+  "include": ["src/sim"],
+  "exclude": ["src/sim/**/*.test.ts"]
+}
