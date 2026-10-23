@@ -1,0 +1,7 @@
+00:00.528  blend            | Read blend: "/Users/gyuha/workspace/heroes/tools/art/army_source.blend"
+/Users/gyuha/workspace/heroes/tools/art/preview_terrain.py:11: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(n);m.use_nodes=True;bs=next(t for t in m.node_tree.nodes if t.type=='BSDF_PRINCIPLED');bs.inputs['Roughness'].default_value=.9
+00:07.078  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/terrain_comparison.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

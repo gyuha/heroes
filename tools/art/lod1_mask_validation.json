@@ -1,0 +1,62 @@
+{
+  "distance_m": 150,
+  "method": "flat alpha-mask emission, black neutral pixels, sRGB-decoded RGB sum times alpha coverage, identical 50deg perspective camera",
+  "units": {
+    "infantry": [
+      {
+        "team": 0,
+        "lod0_visible_mask_pixels": 28.566770392342573,
+        "lod1_visible_mask_pixels": 27.507940512574503,
+        "lod1_to_lod0_ratio": 0.962934911254375
+      },
+      {
+        "team": 1,
+        "lod0_visible_mask_pixels": 26.678606300203136,
+        "lod1_visible_mask_pixels": 25.621773790607183,
+        "lod1_to_lod0_ratio": 0.9603865172826548
+      }
+    ],
+    "spearman": [
+      {
+        "team": 0,
+        "lod0_visible_mask_pixels": 26.07013795147541,
+        "lod1_visible_mask_pixels": 22.89600820778828,
+        "lod1_to_lod0_ratio": 0.8782465305862529
+      },
+      {
+        "team": 1,
+        "lod0_visible_mask_pixels": 23.827681594519497,
+        "lod1_visible_mask_pixels": 21.360636189811878,
+        "lod1_to_lod0_ratio": 0.8964630530703812
+      }
+    ],
+    "archer": [
+      {
+        "team": 0,
+        "lod0_visible_mask_pixels": 19.54392259478698,
+        "lod1_visible_mask_pixels": 17.967873631645094,
+        "lod1_to_lod0_ratio": 0.9193586161888365
+      },
+      {
+        "team": 1,
+        "lod0_visible_mask_pixels": 18.36667218003732,
+        "lod1_visible_mask_pixels": 16.857203442637513,
+        "lod1_to_lod0_ratio": 0.9178147939592212
+      }
+    ],
+    "cavalry": [
+      {
+        "team": 0,
+        "lod0_visible_mask_pixels": 34.54691397495422,
+        "lod1_visible_mask_pixels": 33.01422950363102,
+        "lod1_to_lod0_ratio": 0.9556346922207186
+      },
+      {
+        "team": 1,
+        "lod0_visible_mask_pixels": 29.347265725876717,
+        "lod1_visible_mask_pixels": 29.69295819208305,
+        "lod1_to_lod0_ratio": 1.0117793756132287
+      }
+    ]
+  }
+}

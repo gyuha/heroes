@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>병사 렌더 미리보기 (개발용)</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+        background: #9fc4e8;
+      }
+      #hud {
+        position: fixed;
+        top: 8px;
+        left: 8px;
+        padding: 6px 10px;
+        font:
+          12px/1.5 ui-monospace,
+          monospace;
+        color: #fff;
+        background: rgba(0, 0, 0, 0.6);
+        white-space: pre;
+        pointer-events: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="hud">로딩 중…</div>
+    <script type="module" src="/src/render/units/preview.ts"></script>
+  </body>
+</html>

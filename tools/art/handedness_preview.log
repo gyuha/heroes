@@ -1,0 +1,12 @@
+/Users/gyuha/workspace/heroes/tools/art/preview_handedness.py:9: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s.world.use_nodes=True;bg=next(n for n in s.world.node_tree.nodes if n.type=='BACKGROUND');bg.inputs['Color'].default_value=(.6,.65,.7,1);bg.inputs['Strength'].default_value=.8
+/Users/gyuha/workspace/heroes/tools/art/preview_handedness.py:10: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('palette');m.use_nodes=True;bs=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED');bs.inputs['Roughness'].default_value=.85
+/Users/gyuha/workspace/heroes/tools/art/preview_handedness.py:14: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  ink=bpy.data.materials.new('ink');ink.use_nodes=True;ib=next(n for n in ink.node_tree.nodes if n.type=='BSDF_PRINCIPLED');ib.inputs['Base Color'].default_value=(.008,.012,.016,1);ib.inputs['Roughness'].default_value=1
+00:37.045  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/handedness_bind_comparison.png'
+unknown argument, loading as file: --bind-only
+00:37.103  reports          | ERROR Cannot read file "/Users/gyuha/workspace/heroes/--bind-only": No such file or directory
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

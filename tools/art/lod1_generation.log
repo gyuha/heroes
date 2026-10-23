@@ -1,0 +1,30 @@
+{
+  "infantry": {
+    "triangles": 76,
+    "vertices": 180,
+    "bones": 17,
+    "used_bones": 13,
+    "bytes": 16500
+  },
+  "spearman": {
+    "triangles": 80,
+    "vertices": 192,
+    "bones": 17,
+    "used_bones": 13,
+    "bytes": 17212
+  },
+  "archer": {
+    "triangles": 80,
+    "vertices": 188,
+    "bones": 17,
+    "used_bones": 12,
+    "bytes": 17008
+  },
+  "cavalry": {
+    "triangles": 172,
+    "vertices": 410,
+    "bones": 23,
+    "used_bones": 18,
+    "bytes": 31000
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ford": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "saved_png_opposite_edge_error": 0.0,
+    "mean_linear_luminance": 0.3341158211178335,
+    "bytes": 112131
+  },
+  "water": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "saved_png_opposite_edge_error": 0.0,
+    "mean_linear_luminance": 0.044479667321229044,
+    "bytes": 28252
+  },
+  "ford_water_luminance_ratio": 7.511652879615138,
+  "bridge_reimport": "pass"
+}

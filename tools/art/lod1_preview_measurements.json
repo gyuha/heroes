@@ -1,0 +1,315 @@
+{
+  "renderer": "Blender Cycles; not game FPS benchmark",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "vertical_fov_degrees": 50,
+  "pitch_degrees": 50,
+  "arrangement": "each unit: LOD0 left / LOD1 right; blue near row, ochre far row",
+  "images": {
+    "lod1_closeup.png": {
+      "camera_to_target_distance_m": 35,
+      "measurements": [
+        {
+          "unit": "infantry",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 50.03753185272217
+        },
+        {
+          "unit": "infantry",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 49.33811902999878
+        },
+        {
+          "unit": "infantry",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 49.18845176696777
+        },
+        {
+          "unit": "infantry",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 48.82841348648071
+        },
+        {
+          "unit": "spearman",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 59.893105030059814
+        },
+        {
+          "unit": "spearman",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 65.25692224502563
+        },
+        {
+          "unit": "spearman",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 57.83870458602905
+        },
+        {
+          "unit": "spearman",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 64.04651641845703
+        },
+        {
+          "unit": "archer",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 48.75264644622803
+        },
+        {
+          "unit": "archer",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 48.25697422027588
+        },
+        {
+          "unit": "archer",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 46.894294023513794
+        },
+        {
+          "unit": "archer",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 47.15207576751709
+        },
+        {
+          "unit": "cavalry",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 78.58310222625732
+        },
+        {
+          "unit": "cavalry",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 78.86080741882324
+        },
+        {
+          "unit": "cavalry",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 75.83340883255005
+        },
+        {
+          "unit": "cavalry",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 77.15106010437012
+        }
+      ]
+    },
+    "lod1_150m.png": {
+      "camera_to_target_distance_m": 150,
+      "measurements": [
+        {
+          "unit": "infantry",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 11.737518310546875
+        },
+        {
+          "unit": "infantry",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 11.68119192123413
+        },
+        {
+          "unit": "infantry",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 11.577422618865967
+        },
+        {
+          "unit": "infantry",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 11.5391206741333
+        },
+        {
+          "unit": "spearman",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 14.578170776367188
+        },
+        {
+          "unit": "spearman",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 14.832508563995361
+        },
+        {
+          "unit": "spearman",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 14.197018146514893
+        },
+        {
+          "unit": "spearman",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 14.494678974151611
+        },
+        {
+          "unit": "archer",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 11.463321447372437
+        },
+        {
+          "unit": "archer",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 11.417584419250488
+        },
+        {
+          "unit": "archer",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 11.114516258239746
+        },
+        {
+          "unit": "archer",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 11.108207702636719
+        },
+        {
+          "unit": "cavalry",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 18.293298482894897
+        },
+        {
+          "unit": "cavalry",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 18.279426097869873
+        },
+        {
+          "unit": "cavalry",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 17.758229970932007
+        },
+        {
+          "unit": "cavalry",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 17.805190086364746
+        }
+      ]
+    },
+    "lod1_300m.png": {
+      "camera_to_target_distance_m": 300,
+      "measurements": [
+        {
+          "unit": "infantry",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 5.8617103099823
+        },
+        {
+          "unit": "infantry",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 5.847451686859131
+        },
+        {
+          "unit": "infantry",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 5.784108638763428
+        },
+        {
+          "unit": "infantry",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 5.774388313293457
+        },
+        {
+          "unit": "spearman",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 7.308107614517212
+        },
+        {
+          "unit": "spearman",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 7.371418476104736
+        },
+        {
+          "unit": "spearman",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 7.123582363128662
+        },
+        {
+          "unit": "spearman",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 7.197675704956055
+        },
+        {
+          "unit": "archer",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 5.72636604309082
+        },
+        {
+          "unit": "archer",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 5.714714527130127
+        },
+        {
+          "unit": "archer",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 5.5573225021362305
+        },
+        {
+          "unit": "archer",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 5.55558443069458
+        },
+        {
+          "unit": "cavalry",
+          "lod": 0,
+          "team": 0,
+          "height_px_including_weapon": 9.12265419960022
+        },
+        {
+          "unit": "cavalry",
+          "lod": 0,
+          "team": 1,
+          "height_px_including_weapon": 9.11914587020874
+        },
+        {
+          "unit": "cavalry",
+          "lod": 1,
+          "team": 0,
+          "height_px_including_weapon": 8.863842487335205
+        },
+        {
+          "unit": "cavalry",
+          "lod": 1,
+          "team": 1,
+          "height_px_including_weapon": 8.875429630279541
+        }
+      ]
+    }
+  }
+}

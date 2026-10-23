@@ -1,0 +1,28 @@
+01:03:37 | INFO: Data are loaded, start creating Blender stuff
+01:03:38 | INFO: Blender create Mesh node archer
+01:03:38 | INFO: glTF import finished in 0.01s
+01:03:38 | INFO: Data are loaded, start creating Blender stuff
+01:03:38 | INFO: Blender create Mesh node archer_lod1
+01:03:38 | INFO: glTF import finished in 0.01s
+01:03:38 | INFO: Data are loaded, start creating Blender stuff
+01:03:38 | INFO: Blender create Mesh node cavalry
+01:03:38 | INFO: glTF import finished in 0.01s
+01:03:38 | INFO: Data are loaded, start creating Blender stuff
+01:03:38 | INFO: Blender create Mesh node cavalry_lod1
+01:03:38 | INFO: glTF import finished in 0.01s
+01:03:38 | INFO: Data are loaded, start creating Blender stuff
+01:03:38 | INFO: Blender create Mesh node infantry
+01:03:38 | INFO: glTF import finished in 0.01s
+01:03:38 | INFO: Data are loaded, start creating Blender stuff
+01:03:38 | INFO: Blender create Mesh node infantry_lod1
+01:03:38 | INFO: glTF import finished in 0.01s
+01:03:38 | INFO: Data are loaded, start creating Blender stuff
+01:03:38 | INFO: Blender create Mesh node spearman
+01:03:38 | INFO: glTF import finished in 0.01s
+01:03:38 | INFO: Data are loaded, start creating Blender stuff
+01:03:38 | INFO: Blender create Mesh node spearman_lod1
+01:03:38 | INFO: glTF import finished in 0.01s
+{'archer': {'import': 'pass', 'embedded_palette_mask': 'pass', 'forearm_pose_changed_vertices': 8, 'root_origin': [0.0, 0.0, 0.0]}, 'archer_lod1': {'import': 'pass', 'embedded_palette_mask': 'pass', 'forearm_pose_changed_vertices': 9, 'root_origin': [0.0, 0.0, 0.0]}, 'cavalry': {'import': 'pass', 'embedded_palette_mask': 'pass', 'forearm_pose_changed_vertices': 56, 'root_origin': [0.0, 0.0, 0.0]}, 'cavalry_lod1': {'import': 'pass', 'embedded_palette_mask': 'pass', 'forearm_pose_changed_vertices': 51, 'root_origin': [0.0, 0.0, 0.0]}, 'infantry': {'import': 'pass', 'embedded_palette_mask': 'pass', 'forearm_pose_changed_vertices': 80, 'root_origin': [0.0, 0.0, 0.0]}, 'infantry_lod1': {'import': 'pass', 'embedded_palette_mask': 'pass', 'forearm_pose_changed_vertices': 39, 'root_origin': [0.0, 0.0, 0.0]}, 'spearman': {'import': 'pass', 'embedded_palette_mask': 'pass', 'forearm_pose_changed_vertices': 56, 'root_origin': [0.0, 0.0, 0.0]}, 'spearman_lod1': {'import': 'pass', 'embedded_palette_mask': 'pass', 'forearm_pose_changed_vertices': 51, 'root_origin': [0.0, 0.0, 0.0]}, 'ford_albedo.png': {'dimensions': [512, 512], 'opposite_edge_max_error': 0.0}, 'forest_albedo.png': {'dimensions': [512, 512], 'opposite_edge_max_error': 0.0}, 'grass_albedo.png': {'dimensions': [512, 512], 'opposite_edge_max_error': 0.0}, 'rock_albedo.png': {'dimensions': [512, 512], 'opposite_edge_max_error': 0.0}, 'sand_albedo.png': {'dimensions': [512, 512], 'opposite_edge_max_error': 0.0}, 'water_albedo.png': {'dimensions': [512, 512], 'opposite_edge_max_error': 0.0}, 'palette': {'dimensions': [256, 256], 'alpha_mask': 'pass', 'neutral_rgb_preserved': 'pass'}}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

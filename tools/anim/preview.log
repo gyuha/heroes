@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/Applications/Blender.app/Contents/Resources/5.2/scripts/modules/bpy/utils/__init__.py", line 210, in _register_module_call
+    register()
+    ~~~~~~~~^^
+  File "/Users/gyuha/Library/Application Support/Blender/5.2/scripts/startup/dcc_mcp_blender_startup.py", line 19, in register
+    from dcc_mcp_core import capture_bootstrap_errors
+ModuleNotFoundError: No module named 'dcc_mcp_core'
+/Users/gyuha/workspace/heroes/tools/anim/preview.py:11: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s.world.use_nodes=True;bg=next(n for n in s.world.node_tree.nodes if n.type=='BACKGROUND');bg.inputs['Color'].default_value=(.55,.6,.65,1);bg.inputs['Strength'].default_value=.8
+/Users/gyuha/workspace/heroes/tools/anim/preview.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  ink=bpy.data.materials.new('ink');ink.use_nodes=True
+/Users/gyuha/workspace/heroes/tools/anim/preview.py:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(unit);m.use_nodes=True;nodes=m.node_tree.nodes;bs=next(n for n in nodes if n.type=='BSDF_PRINCIPLED');bs.inputs['Roughness'].default_value=.85
+00:52.105  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/infantry_sheet.png'
+01:27.709  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/spearman_sheet.png'
+02:05.414  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/archer_sheet.png'
+03:09.402  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/cavalry_sheet.png'
+03:24.077  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/000.png'
+03:34.934  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/001.png'
+03:47.907  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/002.png'
+04:00.015  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/003.png'
+04:13.260  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/004.png'
+04:28.148  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/005.png'
+04:38.842  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/006.png'
+04:49.654  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/007.png'
+05:00.630  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/008.png'
+05:10.380  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/009.png'

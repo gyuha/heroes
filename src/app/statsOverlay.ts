@@ -18,8 +18,9 @@ export class StatsOverlay {
     private readonly staticInfo: () => string,
   ) {
     this.el = document.createElement('div');
+    // 오른쪽 위 배속·토글 버튼 아래에 둔다. 왼쪽 위는 UI 상단 띠(청람 병력)와 이벤트 로그 자리다.
     this.el.style.cssText =
-      'position:fixed;top:8px;left:8px;padding:6px 8px;background:rgba(0,0,0,.6);color:#0f0;' +
+      'position:fixed;top:176px;right:8px;padding:6px 8px;background:rgba(0,0,0,.6);color:#0f0;' +
       'font:12px/1.4 monospace;white-space:pre;pointer-events:none;z-index:10';
     parent.appendChild(this.el);
   }

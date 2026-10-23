@@ -1,0 +1,50 @@
+{
+  "infantry": {
+    "walk": {
+      "speed_m_s": 1.809891,
+      "contact_intervals": 12,
+      "contact_speed_rms_variation_m_s": 0.6144147215330519
+    },
+    "run": {
+      "speed_m_s": 3.931617,
+      "contact_intervals": 8,
+      "contact_speed_rms_variation_m_s": 1.1989858842856356
+    }
+  },
+  "spearman": {
+    "walk": {
+      "speed_m_s": 1.809891,
+      "contact_intervals": 12,
+      "contact_speed_rms_variation_m_s": 0.6144147215330519
+    },
+    "run": {
+      "speed_m_s": 3.931617,
+      "contact_intervals": 8,
+      "contact_speed_rms_variation_m_s": 1.1989858842856356
+    }
+  },
+  "archer": {
+    "walk": {
+      "speed_m_s": 1.809891,
+      "contact_intervals": 12,
+      "contact_speed_rms_variation_m_s": 0.6144147215330519
+    },
+    "run": {
+      "speed_m_s": 3.931617,
+      "contact_intervals": 8,
+      "contact_speed_rms_variation_m_s": 1.1989858842856356
+    }
+  },
+  "cavalry": {
+    "walk": {
+      "speed_m_s": 3.600272,
+      "contact_intervals": 28,
+      "contact_speed_rms_variation_m_s": 0.9143300406620081
+    },
+    "run": {
+      "speed_m_s": 7.175335,
+      "contact_intervals": 18,
+      "contact_speed_rms_variation_m_s": 0.9393106679771873
+    }
+  }
+}

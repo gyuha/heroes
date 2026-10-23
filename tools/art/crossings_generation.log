@@ -1,0 +1,22 @@
+/Users/gyuha/workspace/heroes/tools/art/generate_crossings.py:57: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('bridge_vertex');mat.use_nodes=True;bs=next(n for n in mat.node_tree.nodes if n.type=='BSDF_PRINCIPLED');bs.inputs['Roughness'].default_value=.94
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+21:16:41 | INFO: Starting glTF 2.0 export
+21:16:41 | INFO: Extracting primitive: bridge
+21:16:41 | INFO: Primitives created: 1
+21:16:41 | INFO: Finished glTF 2.0 export in 0.010276317596435547 s
+/Users/gyuha/workspace/heroes/tools/art/generate_crossings.py:68: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;b=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED');b.inputs['Roughness'].default_value=.92
+/Users/gyuha/workspace/heroes/tools/art/generate_crossings.py:78: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('label');m.use_nodes=True;b=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED');b.inputs['Base Color'].default_value=(.8,.85,.8,1);b.inputs['Emission Color'].default_value=(.8,.85,.8,1);b.inputs['Emission Strength'].default_value=1
+/Users/gyuha/workspace/heroes/tools/art/generate_crossings.py:89: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  bpy.ops.mesh.primitive_plane_add(size=300,location=(0,0,-6.1));floor=bpy.context.object;fm=bpy.data.materials.new('backdrop');fm.use_nodes=True;fb=next(n for n in fm.node_tree.nodes if n.type=='BSDF_PRINCIPLED');fb.inputs['Base Color'].default_value=(*rgb('4F5D60'),1);fb.inputs['Roughness'].default_value=1;floor.data.materials.append(fm)
+/Users/gyuha/workspace/heroes/tools/art/generate_crossings.py:90: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s=bpy.context.scene;s.world.use_nodes=True;bg=next(n for n in s.world.node_tree.nodes if n.type=='BACKGROUND');bg.inputs['Color'].default_value=(.65,.7,.75,1);bg.inputs['Strength'].default_value=.8
+00:42.006  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/crossings_comparison.png'
+
+Info: Saved as "crossings_source.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

@@ -1,0 +1,26 @@
+[
+  {
+    "unit": "infantry",
+    "source_sha256": "7a42f31514c90ce97a2ae8501353e1592959bfca0a2818e256966c27766885ba",
+    "animation_sha256": "f8313639f9d9e5cfc3a732b3b6d3093cf15ab1fab4bf963e52dd0be174a75a3e",
+    "bytes": 68368
+  },
+  {
+    "unit": "spearman",
+    "source_sha256": "378553d26fef684bdcc18494f99146b5d51a1d7ee9c0390a018dd9a3ec5b3b72",
+    "animation_sha256": "019c7c619322be1890aca8702570e0f27ea49633ff1934d7c861936c65845dcc",
+    "bytes": 68368
+  },
+  {
+    "unit": "archer",
+    "source_sha256": "e7ed721a46338ce11e34fd76296fc9bea54cefc5fbfeb4e610fb226d3e7dadf6",
+    "animation_sha256": "0d7b7fc2bbd8b16deca27a6986d0dabffdcfb999b976425ea7042c0c68299165",
+    "bytes": 68380
+  },
+  {
+    "unit": "cavalry",
+    "source_sha256": "ccc50695a2338f195e122086e771de58bba984a16a59a0aaa6ebdb6d19242b07",
+    "animation_sha256": "5fba5586f2a7b65b69448f578302ab928aab55e619f4972d070bc2082226c81f",
+    "bytes": 92128
+  }
+]

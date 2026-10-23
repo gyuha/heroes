@@ -1,0 +1,23 @@
+21:49:17 | INFO: Data are loaded, start creating Blender stuff
+21:49:17 | INFO: Blender create Mesh node infantry
+21:49:17 | INFO: glTF import finished in 0.01s
+/Users/gyuha/workspace/heroes/tools/art/preview_rts.py:18: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name+str(team));m.use_nodes=True;bs=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED');bs.inputs['Roughness'].default_value=.85
+21:49:17 | INFO: Data are loaded, start creating Blender stuff
+21:49:17 | INFO: Blender create Mesh node spearman
+21:49:17 | INFO: glTF import finished in 0.00s
+21:49:17 | INFO: Data are loaded, start creating Blender stuff
+21:49:17 | INFO: Blender create Mesh node archer
+21:49:17 | INFO: glTF import finished in 0.00s
+21:49:17 | INFO: Data are loaded, start creating Blender stuff
+21:49:17 | INFO: Blender create Mesh node cavalry
+21:49:17 | INFO: glTF import finished in 0.00s
+/Users/gyuha/workspace/heroes/tools/art/preview_rts.py:39: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(name);m.use_nodes=True;bs=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED');bs.inputs['Roughness'].default_value=.95
+/Users/gyuha/workspace/heroes/tools/art/preview_rts.py:43: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s=bpy.context.scene;s.camera=cam;s.render.engine='CYCLES';s.cycles.samples=24;s.render.resolution_x=1200;s.render.resolution_y=800;s.render.resolution_percentage=100;s.world.use_nodes=True;bg=next(n for n in s.world.node_tree.nodes if n.type=='BACKGROUND');bg.inputs['Color'].default_value=(.65,.7,.75,1);bg.inputs['Strength'].default_value=.8;s.view_settings.view_transform='Standard'
+00:14.980  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/rts_24px.png'
+00:26.592  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/rts_12px.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

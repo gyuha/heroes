@@ -1,0 +1,40 @@
+{
+  "infantry": {
+    "source_unchanged_during_animation_work": true,
+    "all_extras_and_frame_counts_preserved": true,
+    "all_clips_total_s": 5.1,
+    "right_arm_event_motion_rad": 1.5817226906570765,
+    "death_equipment_min_y_m": {
+      "hand_r": -4.582982726653029e-08,
+      "hand_l": 0.7503438848438362
+    }
+  },
+  "spearman": {
+    "source_unchanged_during_animation_work": true,
+    "all_extras_and_frame_counts_preserved": true,
+    "all_clips_total_s": 5.1,
+    "right_arm_event_motion_rad": 1.2740903239087473,
+    "death_equipment_min_y_m": {
+      "hand_l": 0.10000000149011612,
+      "hand_r": 0.07935095232013478
+    }
+  },
+  "archer": {
+    "source_unchanged_during_animation_work": true,
+    "all_extras_and_frame_counts_preserved": true,
+    "all_clips_total_s": 5.1,
+    "right_arm_event_motion_rad": 1.3167560959398659,
+    "death_equipment_min_y_m": {
+      "hand_r": -5.635357003264119e-08
+    }
+  },
+  "cavalry": {
+    "source_unchanged_during_animation_work": true,
+    "all_extras_and_frame_counts_preserved": true,
+    "all_clips_total_s": 5.1,
+    "right_arm_event_motion_rad": 1.2740903239087473,
+    "death_equipment_min_y_m": {
+      "hand_l": 0.8179118129259648
+    }
+  }
+}

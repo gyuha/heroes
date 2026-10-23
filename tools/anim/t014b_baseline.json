@@ -1,0 +1,1031 @@
+{
+  "infantry": {
+    "source_sha256": "7a42f31514c90ce97a2ae8501353e1592959bfca0a2818e256966c27766885ba",
+    "source_changed_since_last_build": true,
+    "nodes": [
+      {
+        "name": "head",
+        "translation": [
+          0,
+          0.23000001907348633,
+          0
+        ]
+      },
+      {
+        "name": "hand_l",
+        "translation": [
+          -0.009999990463256836,
+          -0.15999996662139893,
+          0.07999999821186066
+        ]
+      },
+      {
+        "children": [
+          1
+        ],
+        "name": "forearm_l",
+        "translation": [
+          -0.12999999523162842,
+          -0.2200000286102295,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          2
+        ],
+        "name": "upper_arm_l",
+        "translation": [
+          -0.30000001192092896,
+          0.05000007152557373,
+          0
+        ]
+      },
+      {
+        "name": "hand_r",
+        "translation": [
+          0.009999990463256836,
+          -0.15999996662139893,
+          0.07999999821186066
+        ]
+      },
+      {
+        "children": [
+          4
+        ],
+        "name": "forearm_r",
+        "translation": [
+          0.12999999523162842,
+          -0.2200000286102295,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          5
+        ],
+        "name": "upper_arm_r",
+        "translation": [
+          0.30000001192092896,
+          0.05000007152557373,
+          0
+        ]
+      },
+      {
+        "children": [
+          0,
+          3,
+          6
+        ],
+        "name": "chest",
+        "translation": [
+          0,
+          0.21999990940093994,
+          0
+        ]
+      },
+      {
+        "children": [
+          7
+        ],
+        "name": "spine",
+        "translation": [
+          0,
+          0.2200000286102295,
+          0
+        ]
+      },
+      {
+        "name": "foot_l",
+        "translation": [
+          0,
+          -0.3199999928474426,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          9
+        ],
+        "name": "shin_l",
+        "translation": [
+          0,
+          -0.38999998569488525,
+          0
+        ]
+      },
+      {
+        "children": [
+          10
+        ],
+        "name": "thigh_l",
+        "translation": [
+          -0.14000000059604645,
+          -0.030000030994415283,
+          0
+        ]
+      },
+      {
+        "name": "foot_r",
+        "translation": [
+          0,
+          -0.3199999928474426,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          12
+        ],
+        "name": "shin_r",
+        "translation": [
+          0,
+          -0.38999998569488525,
+          0
+        ]
+      },
+      {
+        "children": [
+          13
+        ],
+        "name": "thigh_r",
+        "translation": [
+          0.14000000059604645,
+          -0.030000030994415283,
+          0
+        ]
+      },
+      {
+        "children": [
+          8,
+          11,
+          14
+        ],
+        "name": "hips",
+        "translation": [
+          0,
+          0.8600000143051147,
+          0
+        ]
+      },
+      {
+        "children": [
+          15
+        ],
+        "name": "root"
+      },
+      {
+        "mesh": 0,
+        "name": "infantry",
+        "skin": 0
+      },
+      {
+        "children": [
+          17,
+          16
+        ],
+        "name": "infantry_rig"
+      }
+    ],
+    "clips": {
+      "idle": {
+        "extras": {
+          "fps": 30,
+          "intervals": 36,
+          "loop": true
+        },
+        "intervals": 36
+      },
+      "walk": {
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": true,
+          "speed": 1.809891
+        },
+        "intervals": 30
+      },
+      "run": {
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": true,
+          "speed": 3.931617
+        },
+        "intervals": 24
+      },
+      "attack": {
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": false,
+          "hitTime": 0.4
+        },
+        "intervals": 24
+      },
+      "hit": {
+        "extras": {
+          "fps": 30,
+          "intervals": 9,
+          "loop": false
+        },
+        "intervals": 9
+      },
+      "die": {
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": false
+        },
+        "intervals": 30
+      }
+    }
+  },
+  "spearman": {
+    "source_sha256": "378553d26fef684bdcc18494f99146b5d51a1d7ee9c0390a018dd9a3ec5b3b72",
+    "source_changed_since_last_build": true,
+    "nodes": [
+      {
+        "name": "head",
+        "translation": [
+          0,
+          0.23000001907348633,
+          0
+        ]
+      },
+      {
+        "name": "hand_l",
+        "translation": [
+          -0.009999990463256836,
+          -0.15999996662139893,
+          0.07999999821186066
+        ]
+      },
+      {
+        "children": [
+          1
+        ],
+        "name": "forearm_l",
+        "translation": [
+          -0.12999999523162842,
+          -0.2200000286102295,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          2
+        ],
+        "name": "upper_arm_l",
+        "translation": [
+          -0.30000001192092896,
+          0.05000007152557373,
+          0
+        ]
+      },
+      {
+        "name": "hand_r",
+        "translation": [
+          0.009999990463256836,
+          -0.15999996662139893,
+          0.07999999821186066
+        ]
+      },
+      {
+        "children": [
+          4
+        ],
+        "name": "forearm_r",
+        "translation": [
+          0.12999999523162842,
+          -0.2200000286102295,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          5
+        ],
+        "name": "upper_arm_r",
+        "translation": [
+          0.30000001192092896,
+          0.05000007152557373,
+          0
+        ]
+      },
+      {
+        "children": [
+          0,
+          3,
+          6
+        ],
+        "name": "chest",
+        "translation": [
+          0,
+          0.21999990940093994,
+          0
+        ]
+      },
+      {
+        "children": [
+          7
+        ],
+        "name": "spine",
+        "translation": [
+          0,
+          0.2200000286102295,
+          0
+        ]
+      },
+      {
+        "name": "foot_l",
+        "translation": [
+          0,
+          -0.3199999928474426,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          9
+        ],
+        "name": "shin_l",
+        "translation": [
+          0,
+          -0.38999998569488525,
+          0
+        ]
+      },
+      {
+        "children": [
+          10
+        ],
+        "name": "thigh_l",
+        "translation": [
+          -0.14000000059604645,
+          -0.030000030994415283,
+          0
+        ]
+      },
+      {
+        "name": "foot_r",
+        "translation": [
+          0,
+          -0.3199999928474426,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          12
+        ],
+        "name": "shin_r",
+        "translation": [
+          0,
+          -0.38999998569488525,
+          0
+        ]
+      },
+      {
+        "children": [
+          13
+        ],
+        "name": "thigh_r",
+        "translation": [
+          0.14000000059604645,
+          -0.030000030994415283,
+          0
+        ]
+      },
+      {
+        "children": [
+          8,
+          11,
+          14
+        ],
+        "name": "hips",
+        "translation": [
+          0,
+          0.8600000143051147,
+          0
+        ]
+      },
+      {
+        "children": [
+          15
+        ],
+        "name": "root"
+      },
+      {
+        "mesh": 0,
+        "name": "spearman",
+        "skin": 0
+      },
+      {
+        "children": [
+          17,
+          16
+        ],
+        "name": "spearman_rig"
+      }
+    ],
+    "clips": {
+      "idle": {
+        "extras": {
+          "fps": 30,
+          "intervals": 36,
+          "loop": true
+        },
+        "intervals": 36
+      },
+      "walk": {
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": true,
+          "speed": 1.809891
+        },
+        "intervals": 30
+      },
+      "run": {
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": true,
+          "speed": 3.931617
+        },
+        "intervals": 24
+      },
+      "attack": {
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": false,
+          "hitTime": 0.4
+        },
+        "intervals": 24
+      },
+      "hit": {
+        "extras": {
+          "fps": 30,
+          "intervals": 9,
+          "loop": false
+        },
+        "intervals": 9
+      },
+      "die": {
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": false
+        },
+        "intervals": 30
+      }
+    }
+  },
+  "archer": {
+    "source_sha256": "e7ed721a46338ce11e34fd76296fc9bea54cefc5fbfeb4e610fb226d3e7dadf6",
+    "source_changed_since_last_build": true,
+    "nodes": [
+      {
+        "name": "head",
+        "translation": [
+          0,
+          0.23000001907348633,
+          0
+        ]
+      },
+      {
+        "name": "hand_l",
+        "translation": [
+          -0.009999990463256836,
+          -0.15999996662139893,
+          0.07999999821186066
+        ]
+      },
+      {
+        "children": [
+          1
+        ],
+        "name": "forearm_l",
+        "translation": [
+          -0.12999999523162842,
+          -0.2200000286102295,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          2
+        ],
+        "name": "upper_arm_l",
+        "translation": [
+          -0.30000001192092896,
+          0.05000007152557373,
+          0
+        ]
+      },
+      {
+        "name": "hand_r",
+        "translation": [
+          0.009999990463256836,
+          -0.15999996662139893,
+          0.07999999821186066
+        ]
+      },
+      {
+        "children": [
+          4
+        ],
+        "name": "forearm_r",
+        "translation": [
+          0.12999999523162842,
+          -0.2200000286102295,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          5
+        ],
+        "name": "upper_arm_r",
+        "translation": [
+          0.30000001192092896,
+          0.05000007152557373,
+          0
+        ]
+      },
+      {
+        "children": [
+          0,
+          3,
+          6
+        ],
+        "name": "chest",
+        "translation": [
+          0,
+          0.21999990940093994,
+          0
+        ]
+      },
+      {
+        "children": [
+          7
+        ],
+        "name": "spine",
+        "translation": [
+          0,
+          0.2200000286102295,
+          0
+        ]
+      },
+      {
+        "name": "foot_l",
+        "translation": [
+          0,
+          -0.3199999928474426,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          9
+        ],
+        "name": "shin_l",
+        "translation": [
+          0,
+          -0.38999998569488525,
+          0
+        ]
+      },
+      {
+        "children": [
+          10
+        ],
+        "name": "thigh_l",
+        "translation": [
+          -0.14000000059604645,
+          -0.030000030994415283,
+          0
+        ]
+      },
+      {
+        "name": "foot_r",
+        "translation": [
+          0,
+          -0.3199999928474426,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          12
+        ],
+        "name": "shin_r",
+        "translation": [
+          0,
+          -0.38999998569488525,
+          0
+        ]
+      },
+      {
+        "children": [
+          13
+        ],
+        "name": "thigh_r",
+        "translation": [
+          0.14000000059604645,
+          -0.030000030994415283,
+          0
+        ]
+      },
+      {
+        "children": [
+          8,
+          11,
+          14
+        ],
+        "name": "hips",
+        "translation": [
+          0,
+          0.8600000143051147,
+          0
+        ]
+      },
+      {
+        "children": [
+          15
+        ],
+        "name": "root"
+      },
+      {
+        "mesh": 0,
+        "name": "archer",
+        "skin": 0
+      },
+      {
+        "children": [
+          17,
+          16
+        ],
+        "name": "archer_rig"
+      }
+    ],
+    "clips": {
+      "idle": {
+        "extras": {
+          "fps": 30,
+          "intervals": 36,
+          "loop": true
+        },
+        "intervals": 36
+      },
+      "walk": {
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": true,
+          "speed": 1.809891
+        },
+        "intervals": 30
+      },
+      "run": {
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": true,
+          "speed": 3.931617
+        },
+        "intervals": 24
+      },
+      "attack": {
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": false,
+          "hitTime": 0.5333333333333333
+        },
+        "intervals": 24
+      },
+      "hit": {
+        "extras": {
+          "fps": 30,
+          "intervals": 9,
+          "loop": false
+        },
+        "intervals": 9
+      },
+      "die": {
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": false
+        },
+        "intervals": 30
+      }
+    }
+  },
+  "cavalry": {
+    "source_sha256": "ccc50695a2338f195e122086e771de58bba984a16a59a0aaa6ebdb6d19242b07",
+    "source_changed_since_last_build": true,
+    "nodes": [
+      {
+        "name": "head",
+        "translation": [
+          0,
+          0.23000001907348633,
+          0
+        ]
+      },
+      {
+        "name": "hand_l",
+        "translation": [
+          -0.009999990463256836,
+          -0.15999996662139893,
+          0.07999999821186066
+        ]
+      },
+      {
+        "children": [
+          1
+        ],
+        "name": "forearm_l",
+        "translation": [
+          -0.12999999523162842,
+          -0.2200000286102295,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          2
+        ],
+        "name": "upper_arm_l",
+        "translation": [
+          -0.30000001192092896,
+          0.04999995231628418,
+          0
+        ]
+      },
+      {
+        "name": "hand_r",
+        "translation": [
+          0.009999990463256836,
+          -0.15999996662139893,
+          0.07999999821186066
+        ]
+      },
+      {
+        "children": [
+          4
+        ],
+        "name": "forearm_r",
+        "translation": [
+          0.12999999523162842,
+          -0.2200000286102295,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          5
+        ],
+        "name": "upper_arm_r",
+        "translation": [
+          0.30000001192092896,
+          0.04999995231628418,
+          0
+        ]
+      },
+      {
+        "children": [
+          0,
+          3,
+          6
+        ],
+        "name": "chest",
+        "translation": [
+          0,
+          0.2200000286102295,
+          0
+        ]
+      },
+      {
+        "children": [
+          7
+        ],
+        "name": "spine",
+        "translation": [
+          0,
+          0.2200000286102295,
+          0
+        ]
+      },
+      {
+        "name": "foot_l",
+        "translation": [
+          0,
+          -0.3200000524520874,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          9
+        ],
+        "name": "shin_l",
+        "translation": [
+          0,
+          -0.38999998569488525,
+          0
+        ]
+      },
+      {
+        "children": [
+          10
+        ],
+        "name": "thigh_l",
+        "translation": [
+          -0.14000000059604645,
+          -0.029999971389770508,
+          0
+        ]
+      },
+      {
+        "name": "foot_r",
+        "translation": [
+          0,
+          -0.3200000524520874,
+          0.03999999910593033
+        ]
+      },
+      {
+        "children": [
+          12
+        ],
+        "name": "shin_r",
+        "translation": [
+          0,
+          -0.38999998569488525,
+          0
+        ]
+      },
+      {
+        "children": [
+          13
+        ],
+        "name": "thigh_r",
+        "translation": [
+          0.14000000059604645,
+          -0.029999971389770508,
+          0
+        ]
+      },
+      {
+        "children": [
+          8,
+          11,
+          14
+        ],
+        "name": "hips",
+        "translation": [
+          0,
+          1.5099999904632568,
+          0
+        ]
+      },
+      {
+        "name": "horse_head",
+        "translation": [
+          0,
+          0.3500000238418579,
+          0.8499999642372131
+        ]
+      },
+      {
+        "name": "horse_leg_0",
+        "translation": [
+          -0.2199999839067459,
+          -0.30000001192092896,
+          0.6499999165534973
+        ]
+      },
+      {
+        "name": "horse_leg_1",
+        "translation": [
+          0.2199999839067459,
+          -0.30000001192092896,
+          0.6499999165534973
+        ]
+      },
+      {
+        "name": "horse_leg_2",
+        "translation": [
+          -0.2199999839067459,
+          -0.30000001192092896,
+          -0.6499999165534973
+        ]
+      },
+      {
+        "name": "horse_leg_3",
+        "translation": [
+          0.2199999839067459,
+          -0.30000001192092896,
+          -0.6499999165534973
+        ]
+      },
+      {
+        "children": [
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "name": "horse_body",
+        "scale": [
+          1,
+          0.9999999403953552,
+          1
+        ],
+        "translation": [
+          0,
+          0.949999988079071,
+          0
+        ]
+      },
+      {
+        "children": [
+          15,
+          21
+        ],
+        "name": "root"
+      },
+      {
+        "mesh": 0,
+        "name": "cavalry",
+        "skin": 0
+      },
+      {
+        "children": [
+          23,
+          22
+        ],
+        "name": "cavalry_rig"
+      }
+    ],
+    "clips": {
+      "idle": {
+        "extras": {
+          "fps": 30,
+          "intervals": 36,
+          "loop": true
+        },
+        "intervals": 36
+      },
+      "walk": {
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": true,
+          "speed": 3.600272
+        },
+        "intervals": 30
+      },
+      "run": {
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": true,
+          "speed": 7.175335
+        },
+        "intervals": 24
+      },
+      "attack": {
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": false,
+          "hitTime": 0.4
+        },
+        "intervals": 24
+      },
+      "hit": {
+        "extras": {
+          "fps": 30,
+          "intervals": 9,
+          "loop": false
+        },
+        "intervals": 9
+      },
+      "die": {
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": false
+        },
+        "intervals": 30
+      }
+    }
+  }
+}

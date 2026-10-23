@@ -1,0 +1,28 @@
+[
+  {
+    "seed": 11,
+    "plan": "A",
+    "winner": 0,
+    "reason": "timeHeld",
+    "time": 900,
+    "firstContact": 186,
+    "teams": [
+      {
+        "start": 3600,
+        "effective": 2945,
+        "routing": 161,
+        "lost": 494,
+        "kills": 2153
+      },
+      {
+        "start": 5960,
+        "effective": 2605,
+        "routing": 629,
+        "lost": 2726,
+        "kills": 502
+      }
+    ],
+    "tickMsAvg": 3.41,
+    "tickMsMax": 128
+  }
+]

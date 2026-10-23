@@ -1,0 +1,71 @@
+PASS 1: 0: choose side
+PASS 2: 0: outside deployment refused
+PASS 3: 0: valid deployment
+PASS 4: 0: pause freezes ticks
+PASS 5: 0: paused command accepted
+PASS 6: 0: queued command applied after resume
+PASS 7: 0: no selection refused
+PASS 8: 0: line
+PASS 9: 0: column
+PASS 10: 0: loose
+PASS 11: 0: routed squad ignores move (injected routing)
+PASS 12: 0: surrender reaches result
+PASS 13: 0: result refuses command
+PASS 14: 0: restart reaches deployment
+PASS 15: 1: choose side
+PASS 16: 1: outside deployment refused
+PASS 17: 1: valid deployment
+PASS 18: 1: pause freezes ticks
+PASS 19: 1: paused command accepted
+PASS 20: 1: queued command applied after resume
+PASS 21: 1: no selection refused
+PASS 22: 1: line
+PASS 23: 1: column
+PASS 24: 1: loose
+PASS 25: 1: routed squad ignores move (injected routing)
+PASS 26: 1: surrender reaches result
+PASS 27: 1: result refuses command
+PASS 28: 1: restart reaches deployment
+{
+  fixture: 'timeHeld',
+  phase: 'result',
+  time: 901,
+  tick: 18020,
+  result: {
+    winner: 0,
+    reason: 'timeHeld',
+    time: 901,
+    teams: [ [Object], [Object] ],
+    routCauses: []
+  }
+}
+PASS 29: timeHeld: injected boundary reaches session result
+{
+  fixture: 'flagCaptured',
+  phase: 'result',
+  time: 1,
+  tick: 20,
+  result: {
+    winner: 1,
+    reason: 'flagCaptured',
+    time: 1,
+    teams: [ [Object], [Object] ],
+    routCauses: []
+  }
+}
+PASS 30: flagCaptured: injected boundary reaches session result
+{
+  fixture: 'collapse',
+  phase: 'result',
+  time: 1,
+  tick: 20,
+  result: {
+    winner: 0,
+    reason: 'collapse',
+    time: 1,
+    teams: [ [Object], [Object] ],
+    routCauses: []
+  }
+}
+PASS 31: collapse: injected boundary reaches session result
+Completed 31 checks. UI, natural play and GPU performance are not covered.

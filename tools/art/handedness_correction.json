@@ -1,0 +1,118 @@
+{
+  "infantry": {
+    "equipment_vertices": 120,
+    "before_hand_x_bounds": {
+      "hand_l": [
+        -0.6800000071525574,
+        -0.23999999463558197
+      ],
+      "hand_r": [
+        0.25999999046325684,
+        0.6200000047683716
+      ]
+    },
+    "after_hand_x_bounds": {
+      "hand_l": [
+        -0.6200000047683716,
+        -0.25999999046325684
+      ],
+      "hand_r": [
+        0.23999999463558197,
+        0.6800000071525574
+      ]
+    },
+    "nodes_skins_scenes_unchanged": true,
+    "changed_accessors": [
+      "POSITION",
+      "NORMAL",
+      "JOINTS_0",
+      "indices"
+    ],
+    "weights_values_unchanged": true,
+    "uv_palette_unchanged": true,
+    "bytes": 28064
+  },
+  "spearman": {
+    "equipment_vertices": 78,
+    "before_hand_x_bounds": {
+      "hand_l": [
+        -0.5899999737739563,
+        -0.33000001311302185
+      ],
+      "hand_r": [
+        0.38999998569488525,
+        0.5299999713897705
+      ]
+    },
+    "after_hand_x_bounds": {
+      "hand_l": [
+        -0.5299999713897705,
+        -0.38999998569488525
+      ],
+      "hand_r": [
+        0.33000001311302185,
+        0.5899999737739563
+      ]
+    },
+    "nodes_skins_scenes_unchanged": true,
+    "changed_accessors": [
+      "POSITION",
+      "NORMAL",
+      "JOINTS_0",
+      "indices"
+    ],
+    "weights_values_unchanged": true,
+    "uv_palette_unchanged": true,
+    "bytes": 25776
+  },
+  "archer": {
+    "equipment_vertices": 144,
+    "before_hand_x_bounds": {
+      "hand_l": [
+        -0.6861262321472168,
+        -0.3741266429424286
+      ]
+    },
+    "after_hand_x_bounds": {
+      "hand_r": [
+        0.3741266429424286,
+        0.6861262321472168
+      ]
+    },
+    "nodes_skins_scenes_unchanged": true,
+    "changed_accessors": [
+      "POSITION",
+      "NORMAL",
+      "JOINTS_0",
+      "indices"
+    ],
+    "weights_values_unchanged": true,
+    "uv_palette_unchanged": true,
+    "bytes": 28404
+  },
+  "cavalry": {
+    "equipment_vertices": 48,
+    "before_hand_x_bounds": {
+      "hand_r": [
+        0.38999998569488525,
+        0.5299999713897705
+      ]
+    },
+    "after_hand_x_bounds": {
+      "hand_l": [
+        -0.5299999713897705,
+        -0.38999998569488525
+      ]
+    },
+    "nodes_skins_scenes_unchanged": true,
+    "changed_accessors": [
+      "POSITION",
+      "NORMAL",
+      "JOINTS_0",
+      "indices"
+    ],
+    "weights_values_unchanged": true,
+    "uv_palette_unchanged": true,
+    "bytes": 56100
+  }
+}

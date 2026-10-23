@@ -1,0 +1,7 @@
+21:17:19 | INFO: Data are loaded, start creating Blender stuff
+21:17:19 | INFO: Blender create Mesh node bridge
+21:17:19 | INFO: glTF import finished in 0.01s
+{'ford': {'dimensions': [512, 512], 'saved_png_opposite_edge_error': 0.0, 'mean_linear_luminance': 0.3341158211178335, 'bytes': 112131}, 'water': {'dimensions': [512, 512], 'saved_png_opposite_edge_error': 0.0, 'mean_linear_luminance': 0.044479667321229044, 'bytes': 28252}, 'ford_water_luminance_ratio': 7.511652879615138, 'bridge_reimport': 'pass'}
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

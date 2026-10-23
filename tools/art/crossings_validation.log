@@ -1,0 +1,40 @@
+{
+  "file": "public/assets/props/bridge.glb",
+  "triangles": 1008,
+  "vertices": 2016,
+  "bones": 0,
+  "bytes": 79740,
+  "meshes": 1,
+  "primitives": 1,
+  "materials": 1,
+  "alpha_mode": "OPAQUE",
+  "bounds": [
+    [
+      -5.599999904632568,
+      5.599999904632568
+    ],
+    [
+      -6.0,
+      1.225000023841858
+    ],
+    [
+      -20.0,
+      20.0
+    ]
+  ],
+  "flat_deck_area_m2": 400.0,
+  "flat_deck_local_y": 0,
+  "clear_walkable_width_m": 10,
+  "length_m": 40,
+  "structure_budget": "5000 triangles / 6000 vertices",
+  "unit_files_sha256": {
+    "public/assets/units/archer/animations.glb": "560459f4f651d7ea88085bd0c9d07937af7ed5102c1737d101c9bfc95e7c8cbd",
+    "public/assets/units/archer/archer.glb": "0c4eb354605c6e4d4c2e8b19ca8e4bf2516f169aedbf62cf5a3e19a68494edc8",
+    "public/assets/units/cavalry/animations.glb": "43f5bb8197611dbcbf452c971a4da0fd8491a026b3382232f621c15431f5fa45",
+    "public/assets/units/cavalry/cavalry.glb": "1d547b458738f307880a07a1b6d55dfc43a666675aa6c04a63e2a12b10e2efab",
+    "public/assets/units/infantry/animations.glb": "671eb656f1ecac62855b8071034968bca8a4c8c8d6d16d85d0f240295faed7fe",
+    "public/assets/units/infantry/infantry.glb": "f503eab629f32fc0cc778b9278ef885762ff7f734c20df34fe52bcc62d483557",
+    "public/assets/units/spearman/animations.glb": "545bc2bd5e9433b66dc77042dba13e9679aa2f3ac9bf411c148d7461e0f81f14",
+    "public/assets/units/spearman/spearman.glb": "3e0a1129d183ea31fe42c35e3a29b1b67cf65235fae17838a98fee5cbb41c4c6"
+  }
+}

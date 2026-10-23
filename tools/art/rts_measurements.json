@@ -1,0 +1,26 @@
+{
+  "soldiers": 192,
+  "team_counts": [
+    96,
+    96
+  ],
+  "source": "shipped GLB reimport, evaluated bind pose",
+  "images": {
+    "rts_24px.png": {
+      "reference_infantry_projected_height_px": 23.999977111816406,
+      "orthographic_scale": 83.4070816040039,
+      "resolution": [
+        1200,
+        800
+      ]
+    },
+    "rts_12px.png": {
+      "reference_infantry_projected_height_px": 11.999988555908203,
+      "orthographic_scale": 166.8140106201172,
+      "resolution": [
+        1200,
+        800
+      ]
+    }
+  }
+}

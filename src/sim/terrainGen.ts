@@ -1,4 +1,4 @@
-import { Terrain, TerrainType } from './terrain';
+import { IMPASSABLE_SLOPE_RAD, Terrain, TerrainType } from './terrain';
 
 export interface TerrainGenOptions {
   cellsX: number;
@@ -11,11 +11,10 @@ export interface TerrainGenOptions {
 
 const WATER_LEVEL_RATIO = 0.08;
 const SAND_LEVEL_RATIO = 0.12;
-const ROCK_SLOPE_RAD = (32 * Math.PI) / 180;
 const FOREST_NOISE_THRESHOLD = 0.62;
 
 /**
- * 임시 절차 생성 지형. 맵 파일 로더(docs/ARCHITECTURE.md 7.7)가 생기기 전까지 쓴다.
+ * 절차 생성 지형. 개발·테스트용이다(실제 맵은 map/ 의 로더로 읽는다).
  * 가운데는 완만한 평지, 가장자리로 갈수록 언덕이 높아진다.
  */
 export function generateTerrain(opts: TerrainGenOptions): Terrain {
@@ -46,7 +45,7 @@ export function generateTerrain(opts: TerrainGenOptions): Terrain {
       let type: number = TerrainType.Grass;
       if (h < maxHeight * WATER_LEVEL_RATIO) type = TerrainType.Water;
       else if (h < maxHeight * SAND_LEVEL_RATIO) type = TerrainType.Sand;
-      else if (terrain.slopeAt(cx, cz) > ROCK_SLOPE_RAD) type = TerrainType.Rock;
+      else if (terrain.slopeAt(cx, cz) > IMPASSABLE_SLOPE_RAD) type = TerrainType.Rock;
       else if (fbm((ix / cellsX) * 10, (iz / cellsZ) * 10, seed + 7, 3) > FOREST_NOISE_THRESHOLD)
         type = TerrainType.Forest;
       types[iz * cellsX + ix] = type;
@@ -56,7 +55,7 @@ export function generateTerrain(opts: TerrainGenOptions): Terrain {
 }
 
 /** 프랙탈 값 노이즈. 결과는 대략 [0, 1]. */
-function fbm(x: number, y: number, seed: number, octaves: number): number {
+export function fbm(x: number, y: number, seed: number, octaves: number): number {
   let sum = 0;
   let amp = 0.5;
   let norm = 0;
@@ -88,7 +87,7 @@ function hash(x: number, y: number, seed: number): number {
   return ((h ^ (h >>> 16)) >>> 0) / 4294967296;
 }
 
-function smoothstep(e0: number, e1: number, x: number): number {
+export function smoothstep(e0: number, e1: number, x: number): number {
   const t = Math.min(1, Math.max(0, (x - e0) / (e1 - e0)));
   return t * t * (3 - 2 * t);
 }

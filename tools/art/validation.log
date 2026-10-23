@@ -1,0 +1,262 @@
+[
+  {
+    "file": "public/assets/props/boulder.glb",
+    "triangles": 48,
+    "vertices": 120,
+    "bones": 0,
+    "bytes": 5764,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": null
+  },
+  {
+    "file": "public/assets/props/bridge.glb",
+    "triangles": 1008,
+    "vertices": 2016,
+    "bones": 0,
+    "bytes": 79740,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": null
+  },
+  {
+    "file": "public/assets/props/broadleaf.glb",
+    "triangles": 84,
+    "vertices": 204,
+    "bones": 0,
+    "bytes": 8992,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": null
+  },
+  {
+    "file": "public/assets/props/conifer.glb",
+    "triangles": 84,
+    "vertices": 204,
+    "bones": 0,
+    "bytes": 8984,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": null
+  },
+  {
+    "file": "public/assets/units/archer/archer.glb",
+    "triangles": 264,
+    "vertices": 400,
+    "bones": 17,
+    "bytes": 28404,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": [
+      [
+        -0.49480000138282776,
+        0.6861262321472168
+      ],
+      [
+        0.0,
+        1.840000033378601
+      ],
+      [
+        -0.3400000035762787,
+        0.2874999940395355
+      ]
+    ]
+  },
+  {
+    "file": "public/assets/units/archer/archer_lod1.glb",
+    "triangles": 80,
+    "vertices": 188,
+    "bones": 17,
+    "bytes": 17008,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": [
+      [
+        -0.4350000023841858,
+        0.6930000185966492
+      ],
+      [
+        0.0,
+        1.840000033378601
+      ],
+      [
+        -0.25999999046325684,
+        0.2846410274505615
+      ]
+    ]
+  },
+  {
+    "file": "public/assets/units/cavalry/cavalry.glb",
+    "triangles": 500,
+    "vertices": 886,
+    "bones": 23,
+    "bytes": 56100,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": [
+      [
+        -0.5299999713897705,
+        0.49480000138282776
+      ],
+      [
+        0.0,
+        3.009999990463257
+      ],
+      [
+        -1.1806594133377075,
+        1.3420724868774414
+      ]
+    ]
+  },
+  {
+    "file": "public/assets/units/cavalry/cavalry_lod1.glb",
+    "triangles": 172,
+    "vertices": 410,
+    "bones": 23,
+    "bytes": 31000,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": [
+      [
+        -0.5299999713897705,
+        0.4350000023841858
+      ],
+      [
+        0.0,
+        3.009999990463257
+      ],
+      [
+        -1.149999976158142,
+        1.3200000524520874
+      ]
+    ]
+  },
+  {
+    "file": "public/assets/units/infantry/infantry.glb",
+    "triangles": 260,
+    "vertices": 394,
+    "bones": 17,
+    "bytes": 28064,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": [
+      [
+        -0.6200000047683716,
+        0.6800000071525574
+      ],
+      [
+        0.0,
+        1.8700000047683716
+      ],
+      [
+        -0.23000000417232513,
+        0.3125
+      ]
+    ]
+  },
+  {
+    "file": "public/assets/units/infantry/infantry_lod1.glb",
+    "triangles": 76,
+    "vertices": 180,
+    "bones": 17,
+    "bytes": 16500,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": [
+      [
+        -0.6200000047683716,
+        0.6800000071525574
+      ],
+      [
+        0.0,
+        1.8700000047683716
+      ],
+      [
+        -0.25999999046325684,
+        0.28999999165534973
+      ]
+    ]
+  },
+  {
+    "file": "public/assets/units/spearman/spearman.glb",
+    "triangles": 240,
+    "vertices": 352,
+    "bones": 17,
+    "bytes": 25776,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": [
+      [
+        -0.5299999713897705,
+        0.5899999737739563
+      ],
+      [
+        0.0,
+        2.7899999618530273
+      ],
+      [
+        -0.23000000417232513,
+        0.27000001072883606
+      ]
+    ]
+  },
+  {
+    "file": "public/assets/units/spearman/spearman_lod1.glb",
+    "triangles": 80,
+    "vertices": 192,
+    "bones": 17,
+    "bytes": 17212,
+    "mesh": 1,
+    "primitive": 1,
+    "material": 1,
+    "local_bounds": [
+      [
+        -0.5299999713897705,
+        0.5899999737739563
+      ],
+      [
+        0.0,
+        2.7899999618530273
+      ],
+      [
+        -0.25999999046325684,
+        0.25999999046325684
+      ]
+    ]
+  }
+]
+{
+  "grass": {
+    "mean_srgb": "#78866A",
+    "guide_srgb": "#78866A",
+    "max_channel_error": 0.3269691467285156
+  },
+  "forest": {
+    "mean_srgb": "#3F5C4E",
+    "guide_srgb": "#3F5C4E",
+    "max_channel_error": 0.3290557861328125
+  },
+  "rock": {
+    "mean_srgb": "#788087",
+    "guide_srgb": "#788087",
+    "max_channel_error": 0.4354057312011719
+  },
+  "sand": {
+    "mean_srgb": "#A28362",
+    "guide_srgb": "#A28362",
+    "max_channel_error": 0.3135261535644531
+  },
+  "unit_palettes": "All 4 embedded PNGs and source match six sRGB guide swatches; alpha masks preserved.",
+  "props": "All COLOR_0 values match linear guide swatches; no image conversion needed."
+}

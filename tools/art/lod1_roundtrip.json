@@ -1,0 +1,382 @@
+{
+  "infantry": [
+    {
+      "clip": "idle",
+      "extras": {
+        "fps": 30,
+        "intervals": 36,
+        "loop": true
+      },
+      "tracks": 17,
+      "samples": 37,
+      "max_vertex_displacement_m": 0.022134408585514524,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 1.8869734093731623
+    },
+    {
+      "clip": "walk",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": true,
+        "speed": 1.809891
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 0.5229921743477347,
+      "min_y_m": -1.756359078482788e-17,
+      "min_bone": "foot_r",
+      "min_vertex": 112,
+      "max_y_m": 1.913199274959404
+    },
+    {
+      "clip": "run",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": true,
+        "speed": 3.931617
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.830706697019899,
+      "min_y_m": -3.586371589154652e-9,
+      "min_bone": "foot_l",
+      "min_vertex": 94,
+      "max_y_m": 1.966720482064369
+    },
+    {
+      "clip": "attack",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": false,
+        "hitTime": 0.4
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.7807976685457217,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 1.9376157951781616
+    },
+    {
+      "clip": "hit",
+      "extras": {
+        "fps": 30,
+        "intervals": 9,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 10,
+      "max_vertex_displacement_m": 0.26623424359026104,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 1.8739969519461837
+    },
+    {
+      "clip": "die",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 1.5546155288186483,
+      "min_y_m": -4.582982726653029e-8,
+      "min_bone": "hand_r",
+      "min_vertex": 131,
+      "max_y_m": 1.9161101485747154
+    }
+  ],
+  "spearman": [
+    {
+      "clip": "idle",
+      "extras": {
+        "fps": 30,
+        "intervals": 36,
+        "loop": true
+      },
+      "tracks": 17,
+      "samples": 37,
+      "max_vertex_displacement_m": 0.040689329630910494,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 2.8068008563269884
+    },
+    {
+      "clip": "walk",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": true,
+        "speed": 1.809891
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 0.6327927640425257,
+      "min_y_m": -1.756359078482788e-17,
+      "min_bone": "foot_r",
+      "min_vertex": 112,
+      "max_y_m": 2.825508530348907
+    },
+    {
+      "clip": "run",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": true,
+        "speed": 3.931617
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.8796828825302102,
+      "min_y_m": -3.586371589154652e-9,
+      "min_bone": "foot_l",
+      "min_vertex": 94,
+      "max_y_m": 2.8696452824907754
+    },
+    {
+      "clip": "attack",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": false,
+        "hitTime": 0.4
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 2.724296020666727,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 2.793242123622982
+    },
+    {
+      "clip": "hit",
+      "extras": {
+        "fps": 30,
+        "intervals": 9,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 10,
+      "max_vertex_displacement_m": 0.4574363466096482,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 2.7902432166368905
+    },
+    {
+      "clip": "die",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 2.2669670617181534,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 2.8988255037642423
+    }
+  ],
+  "archer": [
+    {
+      "clip": "idle",
+      "extras": {
+        "fps": 30,
+        "intervals": 36,
+        "loop": true
+      },
+      "tracks": 17,
+      "samples": 37,
+      "max_vertex_displacement_m": 0.0243514527389775,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 1.8564807828429526
+    },
+    {
+      "clip": "walk",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": true,
+        "speed": 1.809891
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 0.5229921743477347,
+      "min_y_m": -1.756359078482788e-17,
+      "min_bone": "foot_r",
+      "min_vertex": 112,
+      "max_y_m": 1.8806236197119952
+    },
+    {
+      "clip": "run",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": true,
+        "speed": 3.931617
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.830706697019899,
+      "min_y_m": -3.586371589154652e-9,
+      "min_bone": "foot_l",
+      "min_vertex": 94,
+      "max_y_m": 1.9300538136225702
+    },
+    {
+      "clip": "attack",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": false,
+        "hitTime": 0.5333333333333333
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.6526980588629636,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 2.1283874253921775
+    },
+    {
+      "clip": "hit",
+      "extras": {
+        "fps": 30,
+        "intervals": 9,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 10,
+      "max_vertex_displacement_m": 0.2970454096724267,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 1.8418895823860089
+    },
+    {
+      "clip": "die",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 1.6350517411364183,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "min_vertex": 93,
+      "max_y_m": 1.8565535544531901
+    }
+  ],
+  "cavalry": [
+    {
+      "clip": "idle",
+      "extras": {
+        "fps": 30,
+        "intervals": 36,
+        "loop": true
+      },
+      "tracks": 23,
+      "samples": 37,
+      "max_vertex_displacement_m": 0.3036236304749454,
+      "min_y_m": 0.0482213967422116,
+      "min_bone": "horse_leg_1",
+      "min_vertex": 315,
+      "max_y_m": 3.0268181821078395
+    },
+    {
+      "clip": "walk",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": true,
+        "speed": 3.600272
+      },
+      "tracks": 23,
+      "samples": 31,
+      "max_vertex_displacement_m": 0.6365080469316664,
+      "min_y_m": 0.030828471995254514,
+      "min_bone": "horse_leg_0",
+      "min_vertex": 298,
+      "max_y_m": 2.9700680439400498
+    },
+    {
+      "clip": "run",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": true,
+        "speed": 7.175335
+      },
+      "tracks": 23,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.667316872065669,
+      "min_y_m": 0.03218609354197344,
+      "min_bone": "horse_leg_0",
+      "min_vertex": 298,
+      "max_y_m": 3.026411774141395
+    },
+    {
+      "clip": "attack",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": false,
+        "hitTime": 0.4
+      },
+      "tracks": 23,
+      "samples": 25,
+      "max_vertex_displacement_m": 2.0981983378725135,
+      "min_y_m": 0.0482213967422116,
+      "min_bone": "horse_leg_1",
+      "min_vertex": 315,
+      "max_y_m": 3.0143849209137494
+    },
+    {
+      "clip": "hit",
+      "extras": {
+        "fps": 30,
+        "intervals": 9,
+        "loop": false
+      },
+      "tracks": 23,
+      "samples": 10,
+      "max_vertex_displacement_m": 0.32095284787414763,
+      "min_y_m": 0.0482213967422116,
+      "min_bone": "horse_leg_1",
+      "min_vertex": 315,
+      "max_y_m": 3.009999990463257
+    },
+    {
+      "clip": "die",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": false
+      },
+      "tracks": 23,
+      "samples": 31,
+      "max_vertex_displacement_m": 2.09046273536662,
+      "min_y_m": 0.034100387520045135,
+      "min_bone": "horse_leg_3",
+      "min_vertex": 351,
+      "max_y_m": 3.009999990463257
+    }
+  ]
+}

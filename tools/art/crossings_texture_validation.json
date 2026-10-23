@@ -1,0 +1,33 @@
+{
+  "water": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "opposite_edge_max_error": 0.0
+  },
+  "ford": {
+    "dimensions": [
+      512,
+      512
+    ],
+    "opposite_edge_max_error": 0.0
+  },
+  "bridge": {
+    "walkable_local_y": 0,
+    "walkable_x": [
+      -5,
+      5
+    ],
+    "walkable_z": [
+      -20,
+      20
+    ],
+    "support_local_y": [
+      -6,
+      -1.3
+    ],
+    "railing_outside_walkway": true,
+    "world_placement_height": "director approved: terrain bank height, default 10m; not baked into GLB"
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "infantry": [
+    {
+      "clip": "idle",
+      "extras": {
+        "fps": 30,
+        "intervals": 36,
+        "loop": true
+      },
+      "tracks": 17,
+      "samples": 37,
+      "max_vertex_displacement_m": 0.02290213763702715,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "max_y_m": 1.8869734093731623
+    },
+    {
+      "clip": "walk",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": true,
+        "speed": 1.809891
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 0.5292074193290153,
+      "min_y_m": -1.9229308360901864e-8,
+      "min_bone": "foot_l",
+      "max_y_m": 1.913199274959404
+    },
+    {
+      "clip": "run",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": true,
+        "speed": 3.931617
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.8406570412179831,
+      "min_y_m": -1.729408256184728e-8,
+      "min_bone": "foot_r",
+      "max_y_m": 1.966720482064369
+    },
+    {
+      "clip": "attack",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": false,
+        "hitTime": 0.4
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.7898644569297478,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "max_y_m": 1.9451553275189766
+    },
+    {
+      "clip": "hit",
+      "extras": {
+        "fps": 30,
+        "intervals": 9,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 10,
+      "max_vertex_displacement_m": 0.26623424359026104,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "max_y_m": 1.8739969519461837
+    },
+    {
+      "clip": "die",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 1.5546155288186483,
+      "min_y_m": -4.582982726653029e-8,
+      "min_bone": "hand_r",
+      "max_y_m": 1.9190700375684646
+    }
+  ],
+  "spearman": [
+    {
+      "clip": "idle",
+      "extras": {
+        "fps": 30,
+        "intervals": 36,
+        "loop": true
+      },
+      "tracks": 17,
+      "samples": 37,
+      "max_vertex_displacement_m": 0.0409672599828334,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "max_y_m": 2.8072221067028345
+    },
+    {
+      "clip": "walk",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": true,
+        "speed": 1.809891
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 0.639661956224528,
+      "min_y_m": -1.9229308360901864e-8,
+      "min_bone": "foot_l",
+      "max_y_m": 2.828652827498652
+    },
+    {
+      "clip": "run",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": true,
+        "speed": 3.931617
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.8881386800755138,
+      "min_y_m": -1.729408256184728e-8,
+      "min_bone": "foot_r",
+      "max_y_m": 2.8725131305851623
+    },
+    {
+      "clip": "attack",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": false,
+        "hitTime": 0.4
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 2.7370608852987974,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "max_y_m": 2.7957956463215674
+    },
+    {
+      "clip": "hit",
+      "extras": {
+        "fps": 30,
+        "intervals": 9,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 10,
+      "max_vertex_displacement_m": 0.45895156036519674,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "max_y_m": 2.792359591291072
+    },
+    {
+      "clip": "die",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 2.274014547706366,
+      "min_y_m": -3.7263687469035744e-8,
+      "min_bone": "foot_r",
+      "max_y_m": 2.9147807153254437
+    }
+  ],
+  "archer": [
+    {
+      "clip": "idle",
+      "extras": {
+        "fps": 30,
+        "intervals": 36,
+        "loop": true
+      },
+      "tracks": 17,
+      "samples": 37,
+      "max_vertex_displacement_m": 0.026374457223900086,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "max_y_m": 1.8567616751011669
+    },
+    {
+      "clip": "walk",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": true,
+        "speed": 1.809891
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 0.5292074193290153,
+      "min_y_m": -1.9229308360901864e-8,
+      "min_bone": "foot_l",
+      "max_y_m": 1.8806236212726333
+    },
+    {
+      "clip": "run",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": true,
+        "speed": 3.931617
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.8406570412179831,
+      "min_y_m": -1.729408256184728e-8,
+      "min_bone": "foot_r",
+      "max_y_m": 1.9300538177395887
+    },
+    {
+      "clip": "attack",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": false,
+        "hitTime": 0.5333333333333333
+      },
+      "tracks": 17,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.7024010845309696,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "max_y_m": 2.206461307511574
+    },
+    {
+      "clip": "hit",
+      "extras": {
+        "fps": 30,
+        "intervals": 9,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 10,
+      "max_vertex_displacement_m": 0.3242608719381558,
+      "min_y_m": 0,
+      "min_bone": "foot_l",
+      "max_y_m": 1.8520293405898611
+    },
+    {
+      "clip": "die",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": false
+      },
+      "tracks": 17,
+      "samples": 31,
+      "max_vertex_displacement_m": 1.748260768724233,
+      "min_y_m": -5.635357003264119e-8,
+      "min_bone": "hand_r",
+      "max_y_m": 1.8765826838307245
+    }
+  ],
+  "cavalry": [
+    {
+      "clip": "idle",
+      "extras": {
+        "fps": 30,
+        "intervals": 36,
+        "loop": true
+      },
+      "tracks": 23,
+      "samples": 37,
+      "max_vertex_displacement_m": 0.3116290527309264,
+      "min_y_m": 0.05033448596674146,
+      "min_bone": "horse_leg_0",
+      "max_y_m": 3.027258974466618
+    },
+    {
+      "clip": "walk",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": true,
+        "speed": 3.600272
+      },
+      "tracks": 23,
+      "samples": 31,
+      "max_vertex_displacement_m": 0.6411990951097881,
+      "min_y_m": 0.013277374430303357,
+      "min_bone": "horse_leg_3",
+      "max_y_m": 2.988620891732029
+    },
+    {
+      "clip": "run",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": true,
+        "speed": 7.175335
+      },
+      "tracks": 23,
+      "samples": 25,
+      "max_vertex_displacement_m": 0.6735850802275012,
+      "min_y_m": 0.013300250426434512,
+      "min_bone": "horse_leg_2",
+      "max_y_m": 3.043911772360766
+    },
+    {
+      "clip": "attack",
+      "extras": {
+        "fps": 30,
+        "intervals": 24,
+        "loop": false,
+        "hitTime": 0.4
+      },
+      "tracks": 23,
+      "samples": 25,
+      "max_vertex_displacement_m": 2.113220500497583,
+      "min_y_m": 0.05033448596674146,
+      "min_bone": "horse_leg_0",
+      "max_y_m": 3.016938443612335
+    },
+    {
+      "clip": "hit",
+      "extras": {
+        "fps": 30,
+        "intervals": 9,
+        "loop": false
+      },
+      "tracks": 23,
+      "samples": 10,
+      "max_vertex_displacement_m": 0.3243714499783677,
+      "min_y_m": 0.05033448596674146,
+      "min_bone": "horse_leg_0",
+      "max_y_m": 3.009999990463257
+    },
+    {
+      "clip": "die",
+      "extras": {
+        "fps": 30,
+        "intervals": 30,
+        "loop": false
+      },
+      "tracks": 23,
+      "samples": 31,
+      "max_vertex_displacement_m": 2.0998556566588253,
+      "min_y_m": 0.013492453688383588,
+      "min_bone": "horse_leg_1",
+      "max_y_m": 3.010483545098417
+    }
+  ]
+}

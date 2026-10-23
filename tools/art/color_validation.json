@@ -1,0 +1,24 @@
+{
+  "grass": {
+    "mean_srgb": "#78866A",
+    "guide_srgb": "#78866A",
+    "max_channel_error": 0.3269691467285156
+  },
+  "forest": {
+    "mean_srgb": "#3F5C4E",
+    "guide_srgb": "#3F5C4E",
+    "max_channel_error": 0.3290557861328125
+  },
+  "rock": {
+    "mean_srgb": "#788087",
+    "guide_srgb": "#788087",
+    "max_channel_error": 0.4354057312011719
+  },
+  "sand": {
+    "mean_srgb": "#A28362",
+    "guide_srgb": "#A28362",
+    "max_channel_error": 0.3135261535644531
+  },
+  "unit_palettes": "All 4 embedded PNGs and source match six sRGB guide swatches; alpha masks preserved.",
+  "props": "All COLOR_0 values match linear guide swatches; no image conversion needed."
+}

@@ -1,0 +1,10 @@
+{
+  // 밸런스 도구 타입 검사: npx tsc -p tools/balance
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "types": [],
+    "allowImportingTsExtensions": true
+  },
+  "include": ["*.ts", "../../src/sim/rng.ts"]
+}

@@ -1,0 +1,179 @@
+[p1 "Heroes — 갈대 여울" | space "heroes T-011 QA 20261023"(12): 1 managed, 0 untracked — p1* "Heroes — 갈대 여울"]
+root
+  canvas
+  canvas
+  container
+    container
+      container
+        text "황토"
+        text "5,960"
+        text "패주 0 · 손실 0"
+      image "황토 병력"
+    container
+      container
+        text "0:01"
+        text "/ 15:00"
+      container
+        svg_root
+        text "깃발 점령 중 60/60초"
+    container
+      container
+        text "청람"
+        text "3,600"
+        text "패주 0 · 손실 0"
+      image "청람 병력"
+  container
+    text "0:00"
+    text "전투 시작"
+  container
+    button "일시정지 / 재개 (Space)" [ref=4, loc=css:button[aria-label="일시정지 / 재개 (Space)"]]
+      svg_root
+    button "배속 1× (+ / −)" [ref=5, loc=css:button[aria-label="배속 1× (+ / −)"]]
+      text "1×"
+    button "배속 2× (+ / −)" [ref=6, loc=css:button[aria-label="배속 2× (+ / −)"]]
+      text "2×"
+    button "배속 4× (+ / −)" [ref=7, loc=css:button[aria-label="배속 4× (+ / −)"]]
+      text "4×"
+    button "메뉴 · 조작법 · 포기 (Esc)" [ref=8, loc=css:button[aria-label="메뉴 · 조작법 · 포기 (Esc)"]]
+      text "메뉴"
+  container
+    button "지형 이동 계수 오버레이 (T)" [ref=9, loc=css:button[aria-label="지형 이동 계수 오버레이 (T)"]]
+      svg_root
+      text "T"
+    button "궁수 사거리 상시 표시 (R)" [ref=10, loc=css:button[aria-label="궁수 사거리 상시 표시 (R)"]]
+      svg_root
+      text "R"
+    button "전술 지도 (Tab / 최대 축소)" [ref=11, loc=css:button[aria-label="전술 지도 (Tab / 최대 축소)"]]
+      svg_root
+      text "Tab"
+  container
+    button "이동 — 지면 우클릭(드래그하면 정면·폭)" [ref=12, loc=css:button[aria-label="이동 — 지면 우클릭(드래그하면 정면·폭)"]]
+      svg_root
+      text "이동"
+    button "공격 — 적 부대 우클릭" [ref=13, loc=css:button[aria-label="공격 — 적 부대 우클릭"]]
+      svg_root
+      text "공격"
+    button "돌격 — 커서 아래 적 또는 현재 표적" [ref=14, loc=css:button[aria-label="돌격 — 커서 아래 적 또는 현재 표적"]]
+      svg_root
+      text "돌격"
+      text "Z"
+    button "전진 — 정면으로 걷다 60m 안의 적을 공격" [ref=15, loc=css:button[aria-label="전진 — 정면으로 걷다 60m 안의 적을 공격"]]
+      svg_root
+      text "전진"
+      text "C"
+    button "고수 — 자리 지킴, 보병 방패벽·창병 Brace" [ref=16, loc=css:button[aria-label="고수 — 자리 지킴, 보병 방패벽·창병 Brace"]]
+      svg_root
+      text "고수"
+      text "X"
+    button "횡대 — 기본 전열" [ref=17, loc=css:button[aria-label="횡대 — 기본 전열"]]
+      svg_root
+      text "횡대"
+      text "F"
+    button "종대 — 10열, 다리·숲길 통과" [ref=18, loc=css:button[aria-label="종대 — 10열, 다리·숲길 통과"]]
+      svg_root
+      text "종대"
+      text "G"
+    button "산개 — 간격 2배, 받는 화살 명중 절반" [ref=19, loc=css:button[aria-label="산개 — 간격 2배, 받는 화살 명중 절반"]]
+      svg_root
+      text "산개"
+      text "H"
+  button "황토 지휘관" [ref=46, loc=role:button[name="황토 지휘관"]]
+    svg_root
+    text "40"
+    text "대기"
+  button "황토 보병 1대" [ref=47, loc=role:button[name="황토 보병 1대"]]
+    svg_root
+    text "300"
+    text "대기"
+  button "황토 보병 2대" [ref=48, loc=role:button[name="황토 보병 2대"]]
+    svg_root
+    text "300"
+    text "대기"
+  button "황토 보병 3대" [ref=49, loc=role:button[name="황토 보병 3대"]]
+    svg_root
+    text "300"
+    text "대기"
+  button "황토 보병 4대" [ref=50, loc=role:button[name="황토 보병 4대"]]
+  button "황토 보병 5대" [ref=51, loc=role:button[name="황토 보병 5대"]]
+  canvas "미니맵"
+  text "그룹 1이 비어 있습니다 — Ctrl(또는 Alt)+1로 저장"
+  text "전술 지도 (Tab / 최대 축소)"
+  dialog
+    container [ref=55]
+      heading
+        text "패배"
+      paragraph
+        text "상대 군이 붕괴했다 · 전투 시간 0:01"
+      table
+        table_row
+          table_cell
+          table_cell
+            text "청람"
+          table_cell
+            text "황토"
+        table_row
+          table_cell
+            text "시작 병력"
+          table_cell
+            text "3,600"
+          table_cell
+            text "5,960"
+        table_row
+          table_cell
+            text "남은 실질 병력"
+          table_cell
+            text "3,600"
+          table_cell
+            text "0"
+        table_row
+          table_cell
+            text "패주 중"
+          table_cell
+            text "0"
+          table_cell
+            text "0"
+        table_row
+          table_cell
+            text "손실"
+          table_cell
+            text "0"
+          table_cell
+            text "5,960"
+        table_row
+          table_cell
+            text "처치"
+          table_cell
+            text "0"
+          table_cell
+            text "0"
+        table_row
+          table_cell
+            text "고지에서 싸운 비율"
+          table_cell
+            text "0%"
+          table_cell
+            text "0%"
+        table_row
+          table_cell
+            text "측면 공격"
+          table_cell
+            text "0"
+          table_cell
+            text "0"
+        table_row
+          table_cell
+            text "후방 공격"
+          table_cell
+            text "0"
+          table_cell
+            text "0"
+      heading
+        text "패주 원인 상위 3"
+      paragraph
+        text "패주한 부대가 없다."
+      container
+        button [ref=56]
+          text "브리핑으로"
+        button [ref=57]
+          text "다시 하기"
+  text "FPS 1.0 frame 1000.00ms cpu 3.10ms sim 0.00ms/tick soldiers 9560 alive 3600 tick 20 t 1s result (paused) ×1 tris 2.72M draw calls 13 result: winner 0 (collapse) at 1s"

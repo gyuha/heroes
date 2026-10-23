@@ -1,0 +1,458 @@
+{
+  "infantry": {
+    "bones": 17,
+    "max_influences": 1,
+    "bind_hierarchy_exact": true,
+    "total_s": 5.1,
+    "clips": [
+      {
+        "clip": "idle",
+        "duration_s": 1.2,
+        "samples": 37,
+        "intervals": 36,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 36,
+          "loop": true
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "walk",
+        "duration_s": 1.0,
+        "samples": 31,
+        "intervals": 30,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": true,
+          "speed": 1.809891
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "run",
+        "duration_s": 0.8,
+        "samples": 25,
+        "intervals": 24,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": true,
+          "speed": 3.931617
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "attack",
+        "duration_s": 0.8,
+        "samples": 25,
+        "intervals": 24,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": false,
+          "hitTime": 0.4
+        },
+        "loop_max_component_delta": null
+      },
+      {
+        "clip": "hit",
+        "duration_s": 0.3,
+        "samples": 10,
+        "intervals": 9,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 9,
+          "loop": false
+        },
+        "loop_max_component_delta": null
+      },
+      {
+        "clip": "die",
+        "duration_s": 1.0,
+        "samples": 31,
+        "intervals": 30,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": false
+        },
+        "loop_max_component_delta": null
+      }
+    ],
+    "source_sha256": "7a42f31514c90ce97a2ae8501353e1592959bfca0a2818e256966c27766885ba"
+  },
+  "spearman": {
+    "bones": 17,
+    "max_influences": 1,
+    "bind_hierarchy_exact": true,
+    "total_s": 5.1,
+    "clips": [
+      {
+        "clip": "idle",
+        "duration_s": 1.2,
+        "samples": 37,
+        "intervals": 36,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 36,
+          "loop": true
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "walk",
+        "duration_s": 1.0,
+        "samples": 31,
+        "intervals": 30,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": true,
+          "speed": 1.809891
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "run",
+        "duration_s": 0.8,
+        "samples": 25,
+        "intervals": 24,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": true,
+          "speed": 3.931617
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "attack",
+        "duration_s": 0.8,
+        "samples": 25,
+        "intervals": 24,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": false,
+          "hitTime": 0.4
+        },
+        "loop_max_component_delta": null
+      },
+      {
+        "clip": "hit",
+        "duration_s": 0.3,
+        "samples": 10,
+        "intervals": 9,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 9,
+          "loop": false
+        },
+        "loop_max_component_delta": null
+      },
+      {
+        "clip": "die",
+        "duration_s": 1.0,
+        "samples": 31,
+        "intervals": 30,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": false
+        },
+        "loop_max_component_delta": null
+      }
+    ],
+    "source_sha256": "378553d26fef684bdcc18494f99146b5d51a1d7ee9c0390a018dd9a3ec5b3b72"
+  },
+  "archer": {
+    "bones": 17,
+    "max_influences": 1,
+    "bind_hierarchy_exact": true,
+    "total_s": 5.1,
+    "clips": [
+      {
+        "clip": "idle",
+        "duration_s": 1.2,
+        "samples": 37,
+        "intervals": 36,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 36,
+          "loop": true
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "walk",
+        "duration_s": 1.0,
+        "samples": 31,
+        "intervals": 30,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": true,
+          "speed": 1.809891
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "run",
+        "duration_s": 0.8,
+        "samples": 25,
+        "intervals": 24,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": true,
+          "speed": 3.931617
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "attack",
+        "duration_s": 0.8,
+        "samples": 25,
+        "intervals": 24,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": false,
+          "hitTime": 0.5333333333333333
+        },
+        "loop_max_component_delta": null
+      },
+      {
+        "clip": "hit",
+        "duration_s": 0.3,
+        "samples": 10,
+        "intervals": 9,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 9,
+          "loop": false
+        },
+        "loop_max_component_delta": null
+      },
+      {
+        "clip": "die",
+        "duration_s": 1.0,
+        "samples": 31,
+        "intervals": 30,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": false
+        },
+        "loop_max_component_delta": null
+      }
+    ],
+    "source_sha256": "e7ed721a46338ce11e34fd76296fc9bea54cefc5fbfeb4e610fb226d3e7dadf6"
+  },
+  "cavalry": {
+    "bones": 23,
+    "max_influences": 1,
+    "bind_hierarchy_exact": true,
+    "total_s": 5.1,
+    "clips": [
+      {
+        "clip": "idle",
+        "duration_s": 1.2,
+        "samples": 37,
+        "intervals": 36,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 36,
+          "loop": true
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "walk",
+        "duration_s": 1.0,
+        "samples": 31,
+        "intervals": 30,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": true,
+          "speed": 3.600272
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "run",
+        "duration_s": 0.8,
+        "samples": 25,
+        "intervals": 24,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": true,
+          "speed": 7.175335
+        },
+        "loop_max_component_delta": 0
+      },
+      {
+        "clip": "attack",
+        "duration_s": 0.8,
+        "samples": 25,
+        "intervals": 24,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 24,
+          "loop": false,
+          "hitTime": 0.4
+        },
+        "loop_max_component_delta": null
+      },
+      {
+        "clip": "hit",
+        "duration_s": 0.3,
+        "samples": 10,
+        "intervals": 9,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 9,
+          "loop": false
+        },
+        "loop_max_component_delta": null
+      },
+      {
+        "clip": "die",
+        "duration_s": 1.0,
+        "samples": 31,
+        "intervals": 30,
+        "root_delta": 0,
+        "root_channels": 0,
+        "translation_targets": [
+          "hips"
+        ],
+        "extras": {
+          "fps": 30,
+          "intervals": 30,
+          "loop": false
+        },
+        "loop_max_component_delta": null
+      }
+    ],
+    "source_sha256": "ccc50695a2338f195e122086e771de58bba984a16a59a0aaa6ebdb6d19242b07"
+  }
+}

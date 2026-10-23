@@ -1,0 +1,46 @@
+/Users/gyuha/workspace/heroes/tools/art/generate.py:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('unit_palette'); mat.use_nodes=True
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+20:43:04 | INFO: Starting glTF 2.0 export
+20:43:04 | INFO: Extracting primitive: infantry
+20:43:04 | INFO: Primitives created: 1
+20:43:04 | INFO: Finished glTF 2.0 export in 0.015595197677612305 s
+
+20:43:04 | INFO: Starting glTF 2.0 export
+20:43:04 | INFO: Extracting primitive: spearman
+20:43:04 | INFO: Primitives created: 1
+20:43:04 | INFO: Finished glTF 2.0 export in 0.003509044647216797 s
+
+20:43:04 | INFO: Starting glTF 2.0 export
+20:43:04 | INFO: Extracting primitive: archer
+20:43:04 | INFO: Primitives created: 1
+20:43:04 | INFO: Finished glTF 2.0 export in 0.0037708282470703125 s
+
+20:43:04 | INFO: Starting glTF 2.0 export
+20:43:04 | INFO: Extracting primitive: cavalry
+20:43:04 | INFO: Primitives created: 1
+20:43:04 | INFO: Finished glTF 2.0 export in 0.005812883377075195 s
+/Users/gyuha/workspace/heroes/tools/art/generate.py:130: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  pm=bpy.data.materials.new('prop_vertex'); pm.use_nodes=True; pb=next(n for n in pm.node_tree.nodes if n.type=='BSDF_PRINCIPLED'); pb.inputs['Roughness'].default_value=.9
+
+20:43:09 | INFO: Starting glTF 2.0 export
+20:43:09 | INFO: Extracting primitive: broadleaf
+20:43:09 | INFO: Primitives created: 1
+20:43:09 | INFO: Finished glTF 2.0 export in 0.0067789554595947266 s
+
+20:43:09 | INFO: Starting glTF 2.0 export
+20:43:09 | INFO: Extracting primitive: conifer
+20:43:09 | INFO: Primitives created: 1
+20:43:09 | INFO: Finished glTF 2.0 export in 0.003111124038696289 s
+
+20:43:09 | INFO: Starting glTF 2.0 export
+20:43:09 | INFO: Extracting primitive: boulder
+20:43:09 | INFO: Primitives created: 1
+20:43:09 | INFO: Finished glTF 2.0 export in 0.0030028820037841797 s
+00:22.523  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/unit_comparison.png'
+
+Info: Saved as "army_source.blend"
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

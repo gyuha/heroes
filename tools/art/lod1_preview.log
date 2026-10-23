@@ -1,0 +1,40 @@
+/Users/gyuha/workspace/heroes/tools/art/preview_lod1.py:11: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s.world.use_nodes=True;bg=next(n for n in s.world.node_tree.nodes if n.type=='BACKGROUND');bg.inputs['Color'].default_value=(.7,.7,.7,1);bg.inputs['Strength'].default_value=.8
+01:02:17 | INFO: Data are loaded, start creating Blender stuff
+01:02:17 | INFO: Blender create Mesh node infantry
+01:02:17 | INFO: glTF import finished in 0.01s
+/Users/gyuha/workspace/heroes/tools/art/preview_lod1.py:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(unit+str(lod)+str(team));m.use_nodes=True;bs=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED');bs.inputs['Roughness'].default_value=.85
+01:02:17 | INFO: Data are loaded, start creating Blender stuff
+01:02:17 | INFO: Blender create Mesh node infantry_lod1
+01:02:17 | INFO: glTF import finished in 0.00s
+01:02:17 | INFO: Data are loaded, start creating Blender stuff
+01:02:17 | INFO: Blender create Mesh node spearman
+01:02:17 | INFO: glTF import finished in 0.01s
+01:02:17 | INFO: Data are loaded, start creating Blender stuff
+01:02:17 | INFO: Blender create Mesh node spearman_lod1
+01:02:17 | INFO: glTF import finished in 0.01s
+01:02:17 | INFO: Data are loaded, start creating Blender stuff
+01:02:17 | INFO: Blender create Mesh node archer
+01:02:17 | INFO: glTF import finished in 0.01s
+01:02:17 | INFO: Data are loaded, start creating Blender stuff
+01:02:17 | INFO: Blender create Mesh node archer_lod1
+01:02:17 | INFO: glTF import finished in 0.01s
+01:02:17 | INFO: Data are loaded, start creating Blender stuff
+01:02:17 | INFO: Blender create Mesh node cavalry
+01:02:17 | INFO: glTF import finished in 0.02s
+01:02:17 | INFO: Data are loaded, start creating Blender stuff
+01:02:17 | INFO: Blender create Mesh node cavalry_lod1
+01:02:17 | INFO: glTF import finished in 0.01s
+/Users/gyuha/workspace/heroes/tools/art/preview_lod1.py:28: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('terrain');m.use_nodes=True;bs=next(n for n in m.node_tree.nodes if n.type=='BSDF_PRINCIPLED');bs.inputs['Roughness'].default_value=1;tex=m.node_tree.nodes.new('ShaderNodeTexImage');tex.image=bpy.data.images.load(str(O/'terrain/grass_albedo.png'));m.node_tree.links.new(tex.outputs['Color'],bs.inputs['Base Color']);ground.data.materials.append(m);materials.append((m,bs))
+/Users/gyuha/workspace/heroes/tools/art/preview_lod1.py:32: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  ink=bpy.data.materials.new('caption');ink.use_nodes=True;bs=next(n for n in ink.node_tree.nodes if n.type=='BSDF_PRINCIPLED');bs.inputs['Base Color'].default_value=(.015,.015,.015,1);bs.inputs['Emission Color'].default_value=(.015,.015,.015,1);bs.inputs['Emission Strength'].default_value=1
+01:03.602  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/lod1_closeup.png'
+01:40.880  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/lod1_150m.png'
+02:04.218  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/lod1_150m_gray.png'
+02:28.592  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/lod1_300m.png'
+02:50.742  render           | Saved: '/Users/gyuha/workspace/heroes/tools/art/lod1_300m_gray.png'
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

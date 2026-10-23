@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "id": "reed_ford",
+  "name": "갈대 여울",
+  "cellSize": 2,
+  "cellsX": 512,
+  "cellsZ": 512,
+  "heightMin": 0,
+  "heightMax": 64,
+  "waterLevel": 7,
+  "boundaryMargin": 40,
+  "propSeed": 1,
+  "bridges": [
+    {
+      "x": 241,
+      "z": 592,
+      "heading": 0,
+      "length": 40,
+      "width": 10
+    },
+    {
+      "x": 801,
+      "z": 586,
+      "heading": 0,
+      "length": 40,
+      "width": 10
+    }
+  ],
+  "fords": [
+    {
+      "x": 520,
+      "z": 600,
+      "heading": 0,
+      "length": 30,
+      "width": 40
+    }
+  ],
+  "objectives": [
+    {
+      "type": "flag",
+      "x": 420,
+      "z": 432,
+      "radius": 40
+    }
+  ],
+  "deployZones": {
+    "defender": [
+      150,
+      150,
+      900,
+      560
+    ],
+    "attacker": [
+      60,
+      800,
+      960,
+      980
+    ]
+  }
+}

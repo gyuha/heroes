@@ -1,0 +1,130 @@
+{
+  "terrain": {
+    "grass": {
+      "before": "#303D25",
+      "after": "#78866A",
+      "guide": "#78866A"
+    },
+    "forest": {
+      "before": "#0D1B13",
+      "after": "#3F5C4E",
+      "guide": "#3F5C4E"
+    },
+    "rock": {
+      "before": "#30373E",
+      "after": "#788087",
+      "guide": "#788087"
+    },
+    "sand": {
+      "before": "#5C3A1F",
+      "after": "#A28362",
+      "guide": "#A28362"
+    }
+  },
+  "palette": {
+    "archer": {
+      "before_cells": [
+        "#939393",
+        "#05080C",
+        "#CAB78D",
+        "#3E4E55",
+        "#21140F",
+        "#6C3416"
+      ],
+      "after_cells": [
+        "#C8C8C8",
+        "#28323D",
+        "#E6DCC4",
+        "#87969C",
+        "#655044",
+        "#AE7D53"
+      ],
+      "before_whole_image_mean": "#5D5146",
+      "after_whole_image_mean": "#93897F"
+    },
+    "cavalry": {
+      "before_cells": [
+        "#939393",
+        "#05080C",
+        "#CAB78D",
+        "#3E4E55",
+        "#21140F",
+        "#6C3416"
+      ],
+      "after_cells": [
+        "#C8C8C8",
+        "#28323D",
+        "#E6DCC4",
+        "#87969C",
+        "#655044",
+        "#AE7D53"
+      ],
+      "before_whole_image_mean": "#5D5146",
+      "after_whole_image_mean": "#93897F"
+    },
+    "infantry": {
+      "before_cells": [
+        "#939393",
+        "#05080C",
+        "#CAB78D",
+        "#3E4E55",
+        "#21140F",
+        "#6C3416"
+      ],
+      "after_cells": [
+        "#C8C8C8",
+        "#28323D",
+        "#E6DCC4",
+        "#87969C",
+        "#655044",
+        "#AE7D53"
+      ],
+      "before_whole_image_mean": "#5D5146",
+      "after_whole_image_mean": "#93897F"
+    },
+    "spearman": {
+      "before_cells": [
+        "#939393",
+        "#05080C",
+        "#CAB78D",
+        "#3E4E55",
+        "#21140F",
+        "#6C3416"
+      ],
+      "after_cells": [
+        "#C8C8C8",
+        "#28323D",
+        "#E6DCC4",
+        "#87969C",
+        "#655044",
+        "#AE7D53"
+      ],
+      "before_whole_image_mean": "#5D5146",
+      "after_whole_image_mean": "#93897F"
+    }
+  },
+  "invariants": {
+    "archer": {
+      "geometry_skin_nodes_accessors_materials_unchanged": true,
+      "sha256_excluding_embedded_image": "3dad3235fe74236f5fddbf931616b5d354484d88f1198344ea1ed8926e3a59c9"
+    },
+    "cavalry": {
+      "geometry_skin_nodes_accessors_materials_unchanged": true,
+      "sha256_excluding_embedded_image": "20cc221b2e73b29c6e1c3a8e2c1c2655b3f9778570793cc1618d282464b93e22"
+    },
+    "infantry": {
+      "geometry_skin_nodes_accessors_materials_unchanged": true,
+      "sha256_excluding_embedded_image": "182a51c30cd3761ff4264ed111a76621780a37ff491c701166f039f16c7eabd2"
+    },
+    "spearman": {
+      "geometry_skin_nodes_accessors_materials_unchanged": true,
+      "sha256_excluding_embedded_image": "a52af3c587f920e80707f445cc7cb654ef41954046ed9c577beff69daeffc598"
+    }
+  },
+  "animations_sha256_unchanged": {
+    "public/assets/units/archer/animations.glb": "f771d8df2040c3a7444230b5d49df16f3258ab4dc9ef06f4945a5642656704a7",
+    "public/assets/units/infantry/animations.glb": "e1817c87616458e1271773cd5b2f85fc4ccd739dd4ee230319c3f253920e9a7d",
+    "public/assets/units/spearman/animations.glb": "79d77dcb1a5b407cf69c7f700a78adcbd4f63ed32c212597cda6a2084ff80b90",
+    "public/assets/units/cavalry/animations.glb": "c58007e316c4614f96b2099e925ccbddb83564606927931fa5e2c6734f712c9b"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  // 맵 도구 타입 검사: npx tsc -p tools/map
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2022"],
+    "types": [],
+    "allowImportingTsExtensions": true
+  },
+  "include": ["*.ts"]
+}

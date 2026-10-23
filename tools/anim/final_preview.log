@@ -1,0 +1,47 @@
+Traceback (most recent call last):
+  File "/Applications/Blender.app/Contents/Resources/5.2/scripts/modules/bpy/utils/__init__.py", line 210, in _register_module_call
+    register()
+    ~~~~~~~~^^
+  File "/Users/gyuha/Library/Application Support/Blender/5.2/scripts/startup/dcc_mcp_blender_startup.py", line 19, in register
+    from dcc_mcp_core import capture_bootstrap_errors
+ModuleNotFoundError: No module named 'dcc_mcp_core'
+/Users/gyuha/workspace/heroes/tools/anim/preview.py:11: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s.world.use_nodes=True;bg=next(n for n in s.world.node_tree.nodes if n.type=='BACKGROUND');bg.inputs['Color'].default_value=(.55,.6,.65,1);bg.inputs['Strength'].default_value=.8
+/Users/gyuha/workspace/heroes/tools/anim/preview.py:17: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  ink=bpy.data.materials.new('ink');ink.use_nodes=True
+/Users/gyuha/workspace/heroes/tools/anim/preview.py:21: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new(unit);m.use_nodes=True;nodes=m.node_tree.nodes;bs=next(n for n in nodes if n.type=='BSDF_PRINCIPLED');bs.inputs['Roughness'].default_value=.85
+00:11.950  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/infantry_sheet.png'
+00:15.286  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/000.png'
+00:18.755  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/001.png'
+00:21.966  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/002.png'
+00:24.853  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/003.png'
+00:28.454  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/004.png'
+00:31.243  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/005.png'
+00:34.348  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/006.png'
+00:37.199  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/007.png'
+00:40.389  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/008.png'
+00:43.246  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/009.png'
+00:46.141  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/010.png'
+00:48.994  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/011.png'
+00:52.785  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/012.png'
+00:56.114  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/013.png'
+00:59.626  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/014.png'
+01:03.176  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/015.png'
+01:06.762  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/016.png'
+01:10.314  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/017.png'
+01:13.551  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/018.png'
+01:16.793  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/019.png'
+01:20.177  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/020.png'
+01:23.891  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/021.png'
+01:27.437  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/022.png'
+01:30.759  render           | Saved: '/Users/gyuha/workspace/heroes/tools/anim/sequence/023.png'
+BlenderMCP: cannot start server in background mode (blender -b) - commands would never execute
+BlenderMCP: run Blender with a GUI, or use a virtual display: xvfb-run -a blender
+BlenderMCP addon registered
+PREVIEW_COMPLETE
+BlenderMCP server stopped
+BlenderMCP addon unregistered
+Blender 5.2.1 LTS (hash 9e2066aef7ef built 2026-08-25 01:35:57)
+
+Blender quit

@@ -1,0 +1,449 @@
+{
+  "infantry": {
+    "file": "public/assets/units/infantry/infantry_lod1.glb",
+    "triangles": 76,
+    "vertices": 180,
+    "bones": 17,
+    "used_bones": 13,
+    "max_influences": 1,
+    "bytes": 16500,
+    "parts": [
+      {
+        "name": "cloth_torso",
+        "vertex_start": 0,
+        "vertex_end": 24,
+        "triangles": 12,
+        "palette_cell": 0
+      },
+      {
+        "name": "helmet_or_hood",
+        "vertex_start": 24,
+        "vertex_end": 42,
+        "triangles": 8,
+        "palette_cell": 3
+      },
+      {
+        "name": "waist",
+        "vertex_start": 42,
+        "vertex_end": 54,
+        "triangles": 4,
+        "palette_cell": 1
+      },
+      {
+        "name": "cape",
+        "vertex_start": 54,
+        "vertex_end": 66,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "arm_l",
+        "vertex_start": 66,
+        "vertex_end": 78,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "arm_r",
+        "vertex_start": 78,
+        "vertex_end": 90,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "leg_l",
+        "vertex_start": 90,
+        "vertex_end": 108,
+        "triangles": 8,
+        "palette_cell": 1
+      },
+      {
+        "name": "leg_r",
+        "vertex_start": 108,
+        "vertex_end": 126,
+        "triangles": 8,
+        "palette_cell": 1
+      },
+      {
+        "name": "shield",
+        "vertex_start": 126,
+        "vertex_end": 150,
+        "triangles": 12,
+        "palette_cell": 0
+      },
+      {
+        "name": "sword",
+        "vertex_start": 150,
+        "vertex_end": 168,
+        "triangles": 8,
+        "palette_cell": 3
+      },
+      {
+        "name": "sword_guard",
+        "vertex_start": 168,
+        "vertex_end": 180,
+        "triangles": 4,
+        "palette_cell": 3
+      }
+    ],
+    "source_sha256": "7a42f31514c90ce97a2ae8501353e1592959bfca0a2818e256966c27766885ba"
+  },
+  "spearman": {
+    "file": "public/assets/units/spearman/spearman_lod1.glb",
+    "triangles": 80,
+    "vertices": 192,
+    "bones": 17,
+    "used_bones": 13,
+    "max_influences": 1,
+    "bytes": 17212,
+    "parts": [
+      {
+        "name": "cloth_torso",
+        "vertex_start": 0,
+        "vertex_end": 24,
+        "triangles": 12,
+        "palette_cell": 0
+      },
+      {
+        "name": "helmet_or_hood",
+        "vertex_start": 24,
+        "vertex_end": 42,
+        "triangles": 8,
+        "palette_cell": 3
+      },
+      {
+        "name": "waist",
+        "vertex_start": 42,
+        "vertex_end": 54,
+        "triangles": 4,
+        "palette_cell": 1
+      },
+      {
+        "name": "cape",
+        "vertex_start": 54,
+        "vertex_end": 66,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "arm_l",
+        "vertex_start": 66,
+        "vertex_end": 78,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "arm_r",
+        "vertex_start": 78,
+        "vertex_end": 90,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "leg_l",
+        "vertex_start": 90,
+        "vertex_end": 108,
+        "triangles": 8,
+        "palette_cell": 1
+      },
+      {
+        "name": "leg_r",
+        "vertex_start": 108,
+        "vertex_end": 126,
+        "triangles": 8,
+        "palette_cell": 1
+      },
+      {
+        "name": "spear_shaft",
+        "vertex_start": 126,
+        "vertex_end": 144,
+        "triangles": 8,
+        "palette_cell": 4
+      },
+      {
+        "name": "spear_tip",
+        "vertex_start": 144,
+        "vertex_end": 168,
+        "triangles": 8,
+        "palette_cell": 3
+      },
+      {
+        "name": "narrow_shield",
+        "vertex_start": 168,
+        "vertex_end": 192,
+        "triangles": 12,
+        "palette_cell": 0
+      }
+    ],
+    "source_sha256": "378553d26fef684bdcc18494f99146b5d51a1d7ee9c0390a018dd9a3ec5b3b72"
+  },
+  "archer": {
+    "file": "public/assets/units/archer/archer_lod1.glb",
+    "triangles": 80,
+    "vertices": 188,
+    "bones": 17,
+    "used_bones": 12,
+    "max_influences": 1,
+    "bytes": 17008,
+    "parts": [
+      {
+        "name": "cloth_torso",
+        "vertex_start": 0,
+        "vertex_end": 24,
+        "triangles": 12,
+        "palette_cell": 0
+      },
+      {
+        "name": "helmet_or_hood",
+        "vertex_start": 24,
+        "vertex_end": 42,
+        "triangles": 8,
+        "palette_cell": 4
+      },
+      {
+        "name": "waist",
+        "vertex_start": 42,
+        "vertex_end": 54,
+        "triangles": 4,
+        "palette_cell": 1
+      },
+      {
+        "name": "cape",
+        "vertex_start": 54,
+        "vertex_end": 66,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "arm_l",
+        "vertex_start": 66,
+        "vertex_end": 78,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "arm_r",
+        "vertex_start": 78,
+        "vertex_end": 90,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "leg_l",
+        "vertex_start": 90,
+        "vertex_end": 108,
+        "triangles": 8,
+        "palette_cell": 1
+      },
+      {
+        "name": "leg_r",
+        "vertex_start": 108,
+        "vertex_end": 126,
+        "triangles": 8,
+        "palette_cell": 1
+      },
+      {
+        "name": "bow_0",
+        "vertex_start": 126,
+        "vertex_end": 144,
+        "triangles": 8,
+        "palette_cell": 4
+      },
+      {
+        "name": "bow_1",
+        "vertex_start": 144,
+        "vertex_end": 162,
+        "triangles": 8,
+        "palette_cell": 4
+      },
+      {
+        "name": "bow_2",
+        "vertex_start": 162,
+        "vertex_end": 180,
+        "triangles": 8,
+        "palette_cell": 4
+      },
+      {
+        "name": "bow_string",
+        "vertex_start": 180,
+        "vertex_end": 188,
+        "triangles": 4,
+        "palette_cell": 2
+      }
+    ],
+    "source_sha256": "e7ed721a46338ce11e34fd76296fc9bea54cefc5fbfeb4e610fb226d3e7dadf6"
+  },
+  "cavalry": {
+    "file": "public/assets/units/cavalry/cavalry_lod1.glb",
+    "triangles": 172,
+    "vertices": 410,
+    "bones": 23,
+    "used_bones": 18,
+    "max_influences": 1,
+    "bytes": 31000,
+    "parts": [
+      {
+        "name": "cloth_torso",
+        "vertex_start": 0,
+        "vertex_end": 24,
+        "triangles": 12,
+        "palette_cell": 0
+      },
+      {
+        "name": "helmet_or_hood",
+        "vertex_start": 24,
+        "vertex_end": 42,
+        "triangles": 8,
+        "palette_cell": 3
+      },
+      {
+        "name": "waist",
+        "vertex_start": 42,
+        "vertex_end": 54,
+        "triangles": 4,
+        "palette_cell": 1
+      },
+      {
+        "name": "cape",
+        "vertex_start": 54,
+        "vertex_end": 66,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "arm_l",
+        "vertex_start": 66,
+        "vertex_end": 78,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "arm_r",
+        "vertex_start": 78,
+        "vertex_end": 90,
+        "triangles": 4,
+        "palette_cell": 0
+      },
+      {
+        "name": "leg_l",
+        "vertex_start": 90,
+        "vertex_end": 108,
+        "triangles": 8,
+        "palette_cell": 1
+      },
+      {
+        "name": "leg_r",
+        "vertex_start": 108,
+        "vertex_end": 126,
+        "triangles": 8,
+        "palette_cell": 1
+      },
+      {
+        "name": "spear_shaft",
+        "vertex_start": 126,
+        "vertex_end": 144,
+        "triangles": 8,
+        "palette_cell": 4
+      },
+      {
+        "name": "spear_tip",
+        "vertex_start": 144,
+        "vertex_end": 168,
+        "triangles": 8,
+        "palette_cell": 3
+      },
+      {
+        "name": "horse_body",
+        "vertex_start": 168,
+        "vertex_end": 228,
+        "triangles": 24,
+        "palette_cell": 5
+      },
+      {
+        "name": "horse_neck",
+        "vertex_start": 228,
+        "vertex_end": 246,
+        "triangles": 8,
+        "palette_cell": 5
+      },
+      {
+        "name": "horse_muzzle",
+        "vertex_start": 246,
+        "vertex_end": 270,
+        "triangles": 12,
+        "palette_cell": 5
+      },
+      {
+        "name": "horse_ear",
+        "vertex_start": 270,
+        "vertex_end": 282,
+        "triangles": 4,
+        "palette_cell": 5
+      },
+      {
+        "name": "horse_ear",
+        "vertex_start": 282,
+        "vertex_end": 294,
+        "triangles": 4,
+        "palette_cell": 5
+      },
+      {
+        "name": "horse_leg_0",
+        "vertex_start": 294,
+        "vertex_end": 312,
+        "triangles": 8,
+        "palette_cell": 5
+      },
+      {
+        "name": "horse_leg_1",
+        "vertex_start": 312,
+        "vertex_end": 330,
+        "triangles": 8,
+        "palette_cell": 5
+      },
+      {
+        "name": "horse_leg_2",
+        "vertex_start": 330,
+        "vertex_end": 348,
+        "triangles": 8,
+        "palette_cell": 5
+      },
+      {
+        "name": "horse_leg_3",
+        "vertex_start": 348,
+        "vertex_end": 366,
+        "triangles": 8,
+        "palette_cell": 5
+      },
+      {
+        "name": "horse_tail",
+        "vertex_start": 366,
+        "vertex_end": 378,
+        "triangles": 4,
+        "palette_cell": 4
+      },
+      {
+        "name": "saddle_cloth",
+        "vertex_start": 378,
+        "vertex_end": 402,
+        "triangles": 12,
+        "palette_cell": 0
+      },
+      {
+        "name": "barding",
+        "vertex_start": 402,
+        "vertex_end": 406,
+        "triangles": 2,
+        "palette_cell": 0
+      },
+      {
+        "name": "barding",
+        "vertex_start": 406,
+        "vertex_end": 410,
+        "triangles": 2,
+        "palette_cell": 0
+      }
+    ],
+    "source_sha256": "ccc50695a2338f195e122086e771de58bba984a16a59a0aaa6ebdb6d19242b07"
+  }
+}

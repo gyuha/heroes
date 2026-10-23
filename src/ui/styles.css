@@ -1,0 +1,850 @@
+/*
+ * HUD 디자인 토큰과 컴포넌트. 근거·규칙은 docs/UI_UX_GUIDE.md §2~§3.
+ * 크기는 rem(루트 13px × UI 배율)으로 쓴다. 1280×720에서 1rem = 13px, 2560×1440에서 22.75px.
+ */
+:root {
+  --font:
+    'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', 'Noto Sans KR', system-ui, sans-serif;
+  --bg-panel: rgba(20, 26, 32, 0.86);
+  --bg-panel-strong: rgba(16, 21, 26, 0.95);
+  --bg-raised: rgba(40, 50, 61, 0.92); /* 공통 암부 #28323D */
+  --bg-hover: rgba(62, 74, 86, 0.95);
+  --line: rgba(230, 220, 196, 0.16);
+  --line-strong: rgba(230, 220, 196, 0.38);
+  --text: #e6dcc4; /* 공통 밝은 면 */
+  --text-dim: #a2a49d;
+  --text-faint: #737b80;
+  --ink: #28323d;
+  --team-a: #247da8;
+  --team-b: #e4a33b;
+  --select: #f4efe2;
+  --attack: #e5484d;
+  --ok: #8dba7a;
+  --warn: #e8833a;
+  --danger: #d94a3d;
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-6: 1.5rem;
+  --radius: 0.3rem;
+  --touch: 3.4rem; /* 44px @720p, 최소 터치·클릭 영역 */
+  --t-fast: 120ms;
+}
+
+.ui-root {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  font-family: var(--font);
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.35;
+  user-select: none;
+  -webkit-user-select: none;
+  font-variant-numeric: tabular-nums;
+  z-index: 2;
+}
+.ui-root * {
+  box-sizing: border-box;
+}
+/* display 를 지정한 요소에서도 hidden 속성이 이기게 한다 */
+.ui-root [hidden] {
+  display: none !important;
+}
+.ui-root button {
+  font: inherit;
+  color: inherit;
+}
+.ui-markers {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+.ui-panel {
+  pointer-events: auto;
+  background: var(--bg-panel);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 0.15rem 0.6rem rgba(0, 0, 0, 0.35);
+}
+.ui-icon {
+  width: 1.4rem;
+  height: 1.4rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  flex: none;
+}
+.ui-key {
+  display: inline-block;
+  min-width: 1.2rem;
+  padding: 0 0.25rem;
+  border: 1px solid var(--line-strong);
+  border-bottom-width: 2px;
+  border-radius: 0.2rem;
+  font-size: 0.77rem;
+  line-height: 1.1rem;
+  text-align: center;
+  color: var(--text-dim);
+}
+/* 진영 모양 글리프(로그·막대): 청람 원, 황토 마름모 */
+.ui-team {
+  display: inline-block;
+  width: 0.8rem;
+  height: 0.8rem;
+  flex: none;
+  vertical-align: -0.08rem;
+}
+.ui-team.t0 {
+  border-radius: 50%;
+  background: var(--team-a);
+  box-shadow: inset 0 0 0 0.12rem var(--text);
+}
+.ui-team.t1 {
+  transform: rotate(45deg) scale(0.82);
+  background: var(--team-b);
+  box-shadow: inset 0 0 0 0.12rem var(--ink);
+}
+
+/* ---------- 버튼 ---------- */
+.ui-btn {
+  pointer-events: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  min-height: var(--touch);
+  min-width: var(--touch);
+  padding: 0 var(--sp-3);
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition:
+    background var(--t-fast),
+    border-color var(--t-fast),
+    transform var(--t-fast);
+}
+.ui-btn:hover {
+  background: var(--bg-hover);
+  border-color: var(--line-strong);
+}
+.ui-btn:active {
+  transform: translateY(1px);
+}
+.ui-btn:focus-visible {
+  outline: 2px solid var(--select);
+  outline-offset: 1px;
+}
+.ui-btn.is-on {
+  background: var(--select);
+  color: var(--ink);
+  border-color: var(--select);
+}
+.ui-btn.is-disabled {
+  opacity: 0.42;
+  cursor: not-allowed;
+}
+.ui-btn.primary {
+  background: var(--select);
+  color: var(--ink);
+  font-weight: 700;
+  border-color: var(--select);
+}
+.ui-btn.primary:hover {
+  background: #fffaf0;
+}
+.ui-btn.danger {
+  color: #ffd9d4;
+  border-color: rgba(217, 74, 61, 0.6);
+}
+
+/* ---------- 상단 띠 ---------- */
+.hud-top {
+  position: absolute;
+  top: var(--sp-2);
+  left: 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: var(--sp-3);
+  width: min(56rem, calc(100vw - 36rem));
+  min-width: 38rem;
+  padding: var(--sp-2) var(--sp-3);
+}
+.force {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+.force.right {
+  align-items: flex-end;
+}
+.force-head {
+  display: flex;
+  align-items: baseline;
+  gap: var(--sp-2);
+  white-space: nowrap;
+}
+.force-name {
+  font-weight: 700;
+}
+.force-num {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+.force-sub {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+.force-bar {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 0.62rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.45);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.force.right .force-bar {
+  flex-direction: row-reverse;
+}
+.force-bar > span {
+  height: 100%;
+}
+.force-bar .eff.t0 {
+  background: var(--team-a);
+}
+.force-bar .eff.t1 {
+  background: var(--team-b);
+}
+.force-bar .rout {
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(230, 220, 196, 0.55) 0 0.2rem,
+    rgba(230, 220, 196, 0.12) 0.2rem 0.4rem
+  );
+}
+.clock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  min-width: 12rem;
+}
+.clock-time {
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.clock-limit {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.objective {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+.objective .ui-icon {
+  width: 1.05rem;
+  height: 1.05rem;
+}
+.objective-bar {
+  width: 5.5rem;
+  height: 0.4rem;
+  border-radius: 0.2rem;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.objective-bar > span {
+  display: block;
+  height: 100%;
+  background: var(--team-b);
+}
+.scale-tag,
+.scale-note {
+  color: var(--warn);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.objective.capturing {
+  color: #ffd79a;
+  animation: ui-pulse 1s ease-in-out infinite;
+}
+.hud-top.overtime .clock-limit {
+  color: var(--warn);
+}
+
+/* ---------- 우측 상단 제어 ---------- */
+.hud-controls {
+  position: absolute;
+  top: var(--sp-2);
+  right: var(--sp-2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--sp-1);
+  pointer-events: none;
+}
+.ctrl-row {
+  display: flex;
+  gap: var(--sp-1);
+  padding: var(--sp-1);
+}
+.ctrl-row .sep {
+  width: 1px;
+  margin: var(--sp-1) 0.15rem;
+  background: var(--line);
+}
+.ctrl-row .ui-btn {
+  padding: 0 var(--sp-2);
+  min-width: 2.9rem;
+  min-height: 2.9rem;
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+.ctrl-row .ui-btn .ui-key {
+  margin-left: 0.1rem;
+}
+
+/* ---------- 이벤트 로그 ---------- */
+.hud-log {
+  position: absolute;
+  top: 5.2rem;
+  left: var(--sp-2);
+  width: 25rem;
+  max-width: 34vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  pointer-events: none;
+}
+.log-entry {
+  pointer-events: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--sp-2);
+  padding: 0.3rem var(--sp-2);
+  background: var(--bg-panel);
+  border-left: 0.2rem solid transparent;
+  border-radius: 0.2rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition:
+    opacity 600ms,
+    background var(--t-fast);
+}
+.log-entry:hover {
+  background: var(--bg-hover);
+}
+.log-entry.warn {
+  border-left-color: var(--warn);
+}
+.log-entry.critical {
+  border-left-color: var(--danger);
+  font-weight: 600;
+}
+.log-entry.old {
+  opacity: 0.55;
+}
+.log-entry time {
+  color: var(--text-faint);
+  flex: none;
+}
+.log-empty {
+  padding: 0.3rem var(--sp-2);
+  color: var(--text-faint);
+  font-size: 0.85rem;
+  background: rgba(20, 26, 32, 0.6);
+  border-radius: 0.2rem;
+}
+
+/* ---------- 하단 ---------- */
+.hud-bottom {
+  position: absolute;
+  left: var(--sp-2);
+  right: var(--sp-2);
+  bottom: var(--sp-2);
+  display: flex;
+  align-items: flex-end;
+  gap: var(--sp-2);
+  pointer-events: none;
+}
+.hud-commands {
+  display: grid;
+  grid-template-columns: repeat(4, var(--touch));
+  gap: var(--sp-1);
+  padding: var(--sp-1);
+  flex: none;
+}
+.cmd {
+  position: relative;
+  flex-direction: column;
+  gap: 0;
+  padding: 0;
+  min-width: 0;
+  font-size: 0.85rem;
+}
+.cmd .ui-icon {
+  width: 1.35rem;
+  height: 1.35rem;
+}
+.cmd .ui-key {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+  min-width: 0;
+  border: none;
+  padding: 0;
+  font-size: 0.72rem;
+  line-height: 1;
+  color: var(--text-faint);
+}
+.cmd.is-on .ui-key {
+  color: var(--ink);
+}
+.hud-cards {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-content: flex-start;
+  justify-content: center;
+  gap: var(--sp-1);
+  padding: var(--sp-1);
+  max-height: calc(2 * 5.7rem + 3 * var(--sp-1));
+  overflow: hidden;
+}
+.hud-cards.empty {
+  visibility: hidden;
+}
+.card {
+  pointer-events: auto;
+  position: relative;
+  width: 4.3rem;
+  height: 5.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.3rem 0.2rem 0.25rem;
+  background: var(--bg-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition:
+    border-color var(--t-fast),
+    background var(--t-fast);
+}
+.card:hover {
+  background: var(--bg-hover);
+}
+.card.is-selected {
+  border-color: var(--select);
+  box-shadow: inset 0 0 0 1px var(--select);
+}
+.card .ui-icon {
+  width: 1.55rem;
+  height: 1.55rem;
+}
+.card-group {
+  position: absolute;
+  top: 0.15rem;
+  left: 0.2rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--select);
+}
+.card-count {
+  margin-top: 0.1rem;
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+.card-state {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.card-flags {
+  position: absolute;
+  top: 0.15rem;
+  right: 0.15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.05rem;
+}
+.card-flags .ui-icon {
+  width: 0.85rem;
+  height: 0.85rem;
+  color: var(--select);
+}
+.card-state.high {
+  color: #b8e0a8;
+  font-weight: 700;
+}
+.card-bars {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.12rem;
+}
+.bar {
+  height: 0.3rem;
+  border-radius: 0.15rem;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+.bar > span {
+  display: block;
+  height: 100%;
+}
+.bar.morale > span {
+  background: var(--ok);
+}
+.card.wavering .bar.morale > span {
+  background: var(--warn);
+}
+.card.wavering .card-state {
+  color: var(--warn);
+  font-weight: 700;
+}
+.bar.charge > span {
+  background: var(--select);
+}
+.card.routing {
+  border-color: var(--danger);
+  animation: ui-pulse 0.8s ease-in-out infinite;
+}
+.card.routing .card-state {
+  color: #ffb3aa;
+  font-weight: 700;
+}
+.card.destroyed {
+  opacity: 0.35;
+  cursor: default;
+  background: repeating-linear-gradient(
+    135deg,
+    rgba(40, 50, 61, 0.9) 0 0.3rem,
+    rgba(20, 26, 32, 0.9) 0.3rem 0.6rem
+  );
+}
+.hud-minimap {
+  flex: none;
+  padding: var(--sp-1);
+  line-height: 0;
+}
+.hud-minimap canvas {
+  width: 13.5rem;
+  height: 13.5rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+/* ---------- 오버레이 범례·전장 라벨 ---------- */
+.hud-legend {
+  padding: var(--sp-2) var(--sp-3);
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.hud-legend b {
+  font-weight: 700;
+  margin-bottom: 0.1rem;
+}
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+.legend-row i {
+  width: 1.4rem;
+  height: 0.75rem;
+  border-radius: 0.15rem;
+}
+.legend-row i.hatch {
+  background: repeating-linear-gradient(
+    135deg,
+    #c43c3c 0 0.2rem,
+    rgba(196, 60, 60, 0.3) 0.2rem 0.4rem
+  ) !important;
+}
+.world-label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -130%);
+  padding: 0.15rem 0.45rem;
+  background: var(--bg-panel-strong);
+  border: 1px solid var(--line);
+  border-radius: 0.2rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  white-space: nowrap;
+  pointer-events: none;
+}
+.world-label.bad {
+  border-color: var(--danger);
+  color: #ffc4bc;
+}
+.world-label small {
+  display: block;
+  font-weight: 500;
+  color: #ffd79a;
+}
+
+/* ---------- 툴팁·안내 ---------- */
+.hud-tooltip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 20rem;
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--bg-panel-strong);
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--t-fast);
+}
+.hud-tooltip.show {
+  opacity: 1;
+}
+.tip-title {
+  font-weight: 700;
+  margin-bottom: 0.15rem;
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+}
+.tip-row {
+  color: var(--text-dim);
+}
+.tip-row b {
+  color: var(--text);
+  font-weight: 600;
+}
+.tip-effect {
+  color: #ffd79a;
+}
+.tip-effect.bad {
+  color: #ffb3aa;
+}
+.hud-toast {
+  position: absolute;
+  left: 50%;
+  bottom: 15.5rem;
+  transform: translate(-50%, 0.5rem);
+  padding: var(--sp-2) var(--sp-4);
+  background: var(--bg-panel-strong);
+  border: 1px solid var(--line-strong);
+  border-radius: 1.2rem;
+  font-weight: 600;
+  opacity: 0;
+  transition:
+    opacity 160ms,
+    transform 160ms;
+  pointer-events: none;
+}
+.hud-toast.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+.hud-banner {
+  position: absolute;
+  top: 5.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  padding: var(--sp-2) var(--sp-3);
+  white-space: nowrap;
+}
+.hud-banner .msg {
+  display: flex;
+  flex-direction: column;
+}
+.hud-banner .msg b {
+  font-size: 1.05rem;
+}
+.hud-banner .msg span {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+}
+.hud-banner.pause {
+  border-color: var(--select);
+}
+
+/* ---------- 모달 화면(브리핑·일시정지 메뉴·결과·조작법) ---------- */
+.screen {
+  pointer-events: auto;
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(8, 11, 14, 0.58);
+  backdrop-filter: blur(2px);
+}
+.sheet {
+  width: min(52rem, calc(100vw - 4rem));
+  max-height: calc(100vh - 4rem);
+  overflow: auto;
+  padding: var(--sp-6);
+  background: var(--bg-panel-strong);
+  border: 1px solid var(--line-strong);
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.5);
+}
+.sheet.narrow {
+  width: min(26rem, calc(100vw - 4rem));
+}
+.sheet h1 {
+  margin: 0 0 0.25rem;
+  font-size: 2rem;
+  letter-spacing: -0.01em;
+}
+.sheet h2 {
+  margin: var(--sp-4) 0 var(--sp-2);
+  font-size: 1.1rem;
+}
+.sheet p {
+  margin: 0 0 var(--sp-2);
+  color: var(--text-dim);
+}
+.sheet .actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--sp-2);
+  margin-top: var(--sp-6);
+}
+.sheet .actions.stack {
+  flex-direction: column;
+  align-items: stretch;
+}
+.side-pick {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--sp-3);
+}
+.side {
+  pointer-events: auto;
+  text-align: left;
+  padding: var(--sp-4);
+  background: var(--bg-raised);
+  border: 2px solid var(--line);
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+.side:hover {
+  border-color: var(--line-strong);
+}
+.side.is-on {
+  border-color: var(--select);
+}
+.side-head {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.side-head .ui-team {
+  width: 1.1rem;
+  height: 1.1rem;
+}
+.side .tag {
+  margin-left: auto;
+  padding: 0.05rem 0.45rem;
+  font-size: 0.85rem;
+  border-radius: 1rem;
+  background: var(--select);
+  color: var(--ink);
+}
+.side ul {
+  margin: var(--sp-2) 0 0;
+  padding-left: 1.1rem;
+  color: var(--text-dim);
+}
+.result-title.win {
+  color: #cfe8c2;
+}
+.result-title.lose {
+  color: #ffc4bc;
+}
+.stats {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+.stats th,
+.stats td {
+  padding: 0.35rem 0.5rem;
+  border-bottom: 1px solid var(--line);
+  text-align: right;
+}
+.stats th:first-child,
+.stats td:first-child {
+  text-align: left;
+  color: var(--text-dim);
+}
+.stats thead th {
+  font-weight: 700;
+  color: var(--text);
+}
+.causes {
+  margin: 0;
+  padding-left: 1.3rem;
+}
+.causes li {
+  margin: 0.2rem 0;
+}
+.keys {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.35rem var(--sp-4);
+  font-size: 0.92rem;
+}
+.keys dt {
+  white-space: nowrap;
+}
+.keys dd {
+  margin: 0;
+  color: var(--text-dim);
+}
+
+@keyframes ui-pulse {
+  50% {
+    opacity: 0.6;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .objective.capturing,
+  .card.routing {
+    animation: none;
+  }
+}
+
+/* ---------- 단계별 HUD 표시 ---------- */
+.ui-root[data-phase='briefing'] :is(.hud-top, .hud-bottom, .hud-controls, .hud-log, .ui-markers) {
+  display: none;
+}
+.ui-root[data-phase='deployment'] .hud-log {
+  display: none;
+}
+.actions-inline {
+  display: flex;
+  gap: var(--sp-2);
+}

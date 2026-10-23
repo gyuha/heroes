@@ -1,0 +1,82 @@
+{
+  "infantry": {
+    "idle": {
+      "max_ground_correction_m": 0
+    },
+    "walk": {
+      "max_ground_correction_m": 0.012288470196128547
+    },
+    "run": {
+      "max_ground_correction_m": 0.012735021985185987
+    },
+    "attack": {
+      "max_ground_correction_m": 0
+    },
+    "hit": {
+      "max_ground_correction_m": 0.03499913035872926
+    },
+    "die": {
+      "max_ground_correction_m": 0.4403326254281512
+    }
+  },
+  "spearman": {
+    "idle": {
+      "max_ground_correction_m": 0
+    },
+    "walk": {
+      "max_ground_correction_m": 0.012288470196128547
+    },
+    "run": {
+      "max_ground_correction_m": 0.012735021985185987
+    },
+    "attack": {
+      "max_ground_correction_m": 0
+    },
+    "hit": {
+      "max_ground_correction_m": 0.03499913035872926
+    },
+    "die": {
+      "max_ground_correction_m": 0.4403326254281512
+    }
+  },
+  "archer": {
+    "idle": {
+      "max_ground_correction_m": 0
+    },
+    "walk": {
+      "max_ground_correction_m": 0.012288470196128547
+    },
+    "run": {
+      "max_ground_correction_m": 0.012735021985185987
+    },
+    "attack": {
+      "max_ground_correction_m": 0
+    },
+    "hit": {
+      "max_ground_correction_m": 0.03499913035872926
+    },
+    "die": {
+      "max_ground_correction_m": 0.4403326254281512
+    }
+  },
+  "cavalry": {
+    "idle": {
+      "max_ground_correction_m": 0
+    },
+    "walk": {
+      "max_ground_correction_m": 0
+    },
+    "run": {
+      "max_ground_correction_m": 0
+    },
+    "attack": {
+      "max_ground_correction_m": 0
+    },
+    "hit": {
+      "max_ground_correction_m": 0
+    },
+    "die": {
+      "max_ground_correction_m": 0
+    }
+  }
+}

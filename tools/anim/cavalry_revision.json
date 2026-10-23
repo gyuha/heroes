@@ -1,0 +1,35 @@
+{
+  "infantry_glb_hashes_unchanged": true,
+  "preserved_sha256": {
+    "infantry": "e1817c87616458e1271773cd5b2f85fc4ccd739dd4ee230319c3f253920e9a7d",
+    "spearman": "79d77dcb1a5b407cf69c7f700a78adcbd4f63ed32c212597cda6a2084ff80b90",
+    "archer": "f771d8df2040c3a7444230b5d49df16f3258ab4dc9ef06f4945a5642656704a7"
+  },
+  "cavalry_speeds": [
+    {
+      "state": "trot",
+      "clip": "walk",
+      "game_speed_m_s": 3.5,
+      "reference_speed_m_s": 3.600272,
+      "playback_rate": 0.9721487709817481
+    },
+    {
+      "state": "gallop",
+      "clip": "run",
+      "game_speed_m_s": 7,
+      "reference_speed_m_s": 7.175335,
+      "playback_rate": 0.9755642071067065
+    },
+    {
+      "state": "charge",
+      "clip": "run",
+      "game_speed_m_s": 9,
+      "reference_speed_m_s": 7.175335,
+      "playback_rate": 1.2542968377086228
+    }
+  ],
+  "walk_stride_cycle_s": 0.5,
+  "run_stride_cycle_s": 0.4,
+  "walk_leg_swing_amplitude_deg": 31,
+  "run_leg_swing_amplitude_deg": 46
+}
