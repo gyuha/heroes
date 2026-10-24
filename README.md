@@ -4,6 +4,9 @@
 
 플레이어는 칼을 휘두르는 영웅이 아니라 전장을 내려다보는 지휘관입니다. 한 판에서 하는 일은 어디에 설지 고르고(배치), 언제 어디를 칠지 정하고(기동), 적이 무너질 때까지 버티는 것(사기 싸움)입니다.
 
+**▶ 브라우저에서 바로 플레이: https://gyuha.github.io/heroes/**
+(데스크톱 브라우저와 마우스를 권장합니다. AI끼리 싸우는 관전 모드: https://gyuha.github.io/heroes/?aivai&autostart)
+
 ![매봉 능선 앞 경사에 늘어선 청람 보병 전열](docs/screenshots/ridge-line.jpg)
 
 > 현재 상태: **MVP 개발 중.** 맵 1개에서 한 판이 배치부터 결과까지 끝까지 돌아갑니다. 균형 조정과 목표 기기 성능 검증이 남아 있습니다(아래 [알려진 문제](#알려진-문제) 참고).
@@ -66,6 +69,7 @@ pnpm dev          # 개발 서버 http://localhost:5173
 |---|---|
 | `pnpm dev` | 개발 서버 실행 |
 | `pnpm build` | 타입 검사 후 프로덕션 빌드(`dist/`) |
+| `pnpm build:pages` | GitHub Pages용 빌드(기준 경로 `/heroes/`) |
 | `pnpm preview` | 빌드 결과 미리보기 |
 | `pnpm test` | 단위 테스트(Vitest) |
 | `pnpm test:slow` | 오래 걸리는 AI 대 AI 결정론 검사까지 포함 |
@@ -85,6 +89,16 @@ pnpm dev          # 개발 서버 http://localhost:5173
 | `?lod=0` | 원거리 저폴리 모델(LOD1) 끄기 |
 
 예: `http://localhost:5173/?aivai&autostart&speed=4`
+
+### 배포
+
+`main`에 push하면 GitHub Actions(`.github/workflows/deploy-pages.yml`)가 테스트를 돌리고 `pnpm build:pages`로 빌드해 GitHub Pages에 배포합니다. 테스트가 실패하면 배포하지 않습니다.
+
+```
+main push → pnpm install → pnpm test → pnpm build:pages → GitHub Pages 배포
+                              ↓ 실패
+                          배포 중단
+```
 
 ## 조작법
 

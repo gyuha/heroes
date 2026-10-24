@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "vite",
     "build": "pnpm typecheck && vite build",
+    "build:pages": "pnpm typecheck && vite build --base=/heroes/",
     "preview": "vite preview",
     "test": "vitest run",
     "test:slow": "vitest run --mode slow",
