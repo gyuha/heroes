@@ -4,8 +4,8 @@
 
 플레이어는 칼을 휘두르는 영웅이 아니라 전장을 내려다보는 지휘관입니다. 한 판에서 하는 일은 어디에 설지 고르고(배치), 언제 어디를 칠지 정하고(기동), 적이 무너질 때까지 버티는 것(사기 싸움)입니다.
 
-**▶ 브라우저에서 바로 플레이: https://gyuha.github.io/heroes/**
-(데스크톱 브라우저와 마우스를 권장합니다. AI끼리 싸우는 관전 모드: https://gyuha.github.io/heroes/?aivai&autostart)
+**▶ 브라우저에서 바로 플레이: https://gyuha.com/heroes/**
+(데스크톱 브라우저와 마우스를 권장합니다. AI끼리 싸우는 관전 모드: https://gyuha.com/heroes/?aivai&autostart)
 
 ![매봉 능선 앞 경사에 늘어선 청람 보병 전열](docs/screenshots/ridge-line.jpg)
 

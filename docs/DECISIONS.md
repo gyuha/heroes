@@ -132,6 +132,6 @@
 
 ## D-019 GitHub Pages 배포 (2026-10-24)
 
-- **결정:** 사용자 요청에 따라 게임을 GitHub Pages(`https://gyuha.github.io/heroes/`)에 배포한다. `main`에 push하면 GitHub Actions가 `pnpm test`를 통과한 경우에만 `pnpm build:pages`(Vite `--base=/heroes/`)로 빌드해 배포한다.
+- **결정:** 사용자 요청에 따라 게임을 GitHub Pages에 배포한다. 계정의 커스텀 도메인 때문에 주소는 `https://gyuha.com/heroes/`이고, `gyuha.github.io/heroes/`는 이 주소로 넘어간다. `main`에 push하면 GitHub Actions가 `pnpm test`를 통과한 경우에만 `pnpm build:pages`(Vite `--base=/heroes/`)로 빌드해 배포한다.
 - **이유:** 런타임 리소스 경로가 이미 `import.meta.env.BASE_URL` 기준이라 기준 경로만 바꾸면 된다. 로컬에서 `/heroes/` 하위 경로로 띄워 28개 요청이 모두 200임을 확인했다. 테스트를 배포 조건으로 두어 깨진 빌드가 공개되지 않게 한다.
 - **영향:** 런타임에 리소스를 불러오는 코드는 앞으로도 `/assets/...` 같은 절대 경로를 쓰지 말고 `import.meta.env.BASE_URL`을 붙인다. `main`에 push하는 것이 곧 공개 배포다(게임 디렉터가 사용자 확인 후 push).

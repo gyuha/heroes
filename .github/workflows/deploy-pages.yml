@@ -1,4 +1,4 @@
-# main에 push하면 테스트 후 GitHub Pages(https://gyuha.github.io/heroes/)에 배포한다.
+# main에 push하면 테스트 후 GitHub Pages(https://gyuha.com/heroes/)에 배포한다.
 name: Deploy to GitHub Pages
 
 on:
